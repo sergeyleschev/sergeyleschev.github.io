@@ -9,13 +9,19 @@
    <url>
       <loc>https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html</loc>
       <lastmod>2022-05-15</lastmod>
-      <changefreq>daily</changefreq>
+      <changefreq>weekly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html</loc>
       <lastmod>2022-05-15</lastmod>
-      <changefreq>daily</changefreq>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap</loc>
+      <lastmod>2022-05-15</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.8</priority>
    </url>
 </urlset> 

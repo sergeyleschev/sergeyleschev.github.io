@@ -1,0 +1,2008 @@
+<!DOCTYPE html><html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <meta name="description" content="Sergey Leschev, Tech Lead (Swift, TypeScript, Database). Sergey is a professional who is responsible for the design and construction of websites and apps.">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@sergeyleschev">
+    <meta name="twitter:title" content="Sergey Leschev">
+    <meta name="twitter:description" content="Sergey Leschev, Tech Lead (Swift, TypeScript, Database). Sergey is a professional who is responsible for the design and construction of websites and apps.">
+    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1372479346225582088/Qek8o6vC_400x400.jpg">
+    <meta name="twitter:image:src" content="https://pbs.twimg.com/profile_images/1372479346225582088/Qek8o6vC_400x400.jpg">
+
+    <meta name="robots" content="index, archive" />
+    <meta property="cdc:template_version" content="4.0">
+    <title>Sergey Leschev - FullStack Roadmap</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="favicon-32x32.png"/>
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="alternate" href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html" hreflang="en-gb"/>
+    <link rel="canonical" href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Sergey Leschev, Tech Lead",
+      "author": "Sergey Leschev",
+      "image": "https://avatars.githubusercontent.com/u/23653372?v=4&raw=true",
+      "description": "Sergey is a professional who is responsible for the design and construction of websites and apps.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "1427",
+        "bestRating": "5",
+        "worstRating": "3"
+      }
+    }
+    </script>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="color-scheme" content="light dark">
+    <meta name="author" content="Sergey Leschev">
+    <meta name="keywords" content="sergey leschev, siarhei liashchou, sergeyleschev, senior developer, tech lead, cto, swift deverloper, typescript developer, near me job, jobs hiring near me, usaa jobs, jobs, work from home jobs, part time jobs near me, remote jobs, target jobs, hiring jobs, jobs online, jobs part time, google jobs, linked in jobs, linkedin jobs, home depot career, jobs from home, virtual assistant jobs, indeed jobs near me, leader, knowledge, qualifications, education, tips, skills, multitasking, references, success, work, job, tie, challenges, abilities, impress, responsibility, future, weeknesses, benefits, results, team player, strengths, interview, degress, examples, strengths, experienced, problem solver, candidate, agency, objective, initiative, team, dreams, conflict, can-do, training, questions, job, work, career, created, swift, typescript, javascript, sql, nosql, postgresql, oracle, sql server, react, redux, swiftui, objective-c, devops, aws, mongodb, pl/sql, angular, project management, nodejs, nextjs, nestjs, api, agile, amplitude, analytics, appclip, appstore, bash, css, jira, confluence, git, graphql, html, html5, mvp, mvvm, nginx, ssh, prime react, rest, teamcity, typeorm, uikit, uml, viper, widgets, xcode, json, linux, docker, mobx, tvOS, watchOS" />
+    <link rel="stylesheet" href="github-markdown.css">
+    <style>
+      body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 25px;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #0d1117;
+        }
+      }
+    </style>
+    <style>
+      .github-fork-ribbon:before {
+        background-color: #121612;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article id="personal-details" class="markdown-body"><h1> <a href="https://sergeyleschev.github.io"><img itemprop="image" alt="Sergey Leschev" src="apple-touch-icon.png" width=27/></a> Sergey Leschev</h1>
+      <img itemprop="image" alt="Sergey Leschev" src="https://avatars.githubusercontent.com/u/23653372?v=4&raw=true" width=300/>
+<h3>System Architect</h3>
+<h2>🏆 Awards</h2>
+<h3>Ranking #Dev: Global TOP 300 (<a href="https://leetcode.com/sergeyleschev/">Certificate</a>)</h3>
+<p><a href="https://leetcode.com/sergeyleschev/"><img src="https://github.com/sergeyleschev/sergeyleschev/blob/main/leetcode-ranking.png?raw=true" alt="drawing" width="410"></a></p>
+<h2>The System Design</h2>
+<h3>Design large-scale systems</h3>
+<p>System design is a broad topic. There is a <strong>vast amount of resources scattered throughout the web</strong> on system design principles.</p>
+<p align="center">
+  <img alt="system design" src="images/jrUBAF7.png?raw=true" width="400">
+  <br>
+</p>
+<div style="page-break-after: always;"></div>
+<h2>Index of system design topics</h2>
+<blockquote>
+<p>Summaries of various system design topics, including pros and cons.  <strong>Everything is a trade-off</strong>.</p>
+<p>Each section contains links to more in-depth resources.</p>
+</blockquote>
+<ul>
+<li><a href="#system-design-topics-start-here">System design topics: start here</a>
+<ul>
+<li><a href="#step-1-review-the-scalability-video-lecture">Step 1: Review the scalability video lecture</a></li>
+<li><a href="#step-2-review-the-scalability-article">Step 2: Review the scalability article</a></li>
+<li><a href="#next-steps">Next steps</a></li>
+</ul>
+</li>
+<li><a href="#performance-vs-scalability">Performance vs scalability</a></li>
+<li><a href="#latency-vs-throughput">Latency vs throughput</a></li>
+<li><a href="#availability-vs-consistency">Availability vs consistency</a>
+<ul>
+<li><a href="#cap-theorem">CAP theorem</a>
+<ul>
+<li><a href="#cp---consistency-and-partition-tolerance">CP - consistency and partition tolerance</a></li>
+<li><a href="#ap---availability-and-partition-tolerance">AP - availability and partition tolerance</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#consistency-patterns">Consistency patterns</a>
+<ul>
+<li><a href="#weak-consistency">Weak consistency</a></li>
+<li><a href="#eventual-consistency">Eventual consistency</a></li>
+<li><a href="#strong-consistency">Strong consistency</a></li>
+</ul>
+</li>
+<li><a href="#availability-patterns">Availability patterns</a>
+<ul>
+<li><a href="#fail-over">Fail-over</a></li>
+<li><a href="#replication">Replication</a></li>
+<li><a href="#availability-in-numbers">Availability in numbers</a></li>
+</ul>
+</li>
+<li><a href="#domain-name-system">Domain name system</a></li>
+<li><a href="#content-delivery-network">Content delivery network</a>
+<ul>
+<li><a href="#push-cdns">Push CDNs</a></li>
+<li><a href="#pull-cdns">Pull CDNs</a></li>
+</ul>
+</li>
+<li><a href="#load-balancer">Load balancer</a>
+<ul>
+<li><a href="#active-passive">Active-passive</a></li>
+<li><a href="#active-active">Active-active</a></li>
+<li><a href="#layer-4-load-balancing">Layer 4 load balancing</a></li>
+<li><a href="#layer-7-load-balancing">Layer 7 load balancing</a></li>
+<li><a href="#horizontal-scaling">Horizontal scaling</a></li>
+</ul>
+</li>
+<li><a href="#reverse-proxy-web-server">Reverse proxy (web server)</a>
+<ul>
+<li><a href="#load-balancer-vs-reverse-proxy">Load balancer vs reverse proxy</a></li>
+</ul>
+</li>
+<li><a href="#application-layer">Application layer</a>
+<ul>
+<li><a href="#microservices">Microservices</a></li>
+<li><a href="#service-discovery">Service discovery</a></li>
+</ul>
+</li>
+<li><a href="#database">Database</a>
+<ul>
+<li><a href="#relational-database-management-system-rdbms">Relational database management system (RDBMS)</a>
+<ul>
+<li><a href="#master-slave-replication">Master-slave replication</a></li>
+<li><a href="#master-master-replication">Master-master replication</a></li>
+<li><a href="#federation">Federation</a></li>
+<li><a href="#sharding">Sharding</a></li>
+<li><a href="#denormalization">Denormalization</a></li>
+<li><a href="#sql-tuning">SQL tuning</a></li>
+</ul>
+</li>
+<li><a href="#nosql">NoSQL</a>
+<ul>
+<li><a href="#key-value-store">Key-value store</a></li>
+<li><a href="#document-store">Document store</a></li>
+<li><a href="#wide-column-store">Wide column store</a></li>
+<li><a href="#graph-database">Graph Database</a></li>
+</ul>
+</li>
+<li><a href="#sql-or-nosql">SQL or NoSQL</a></li>
+</ul>
+</li>
+<li><a href="#cache">Cache</a>
+<ul>
+<li><a href="#client-caching">Client caching</a></li>
+<li><a href="#cdn-caching">CDN caching</a></li>
+<li><a href="#web-server-caching">Web server caching</a></li>
+<li><a href="#database-caching">Database caching</a></li>
+<li><a href="#application-caching">Application caching</a></li>
+<li><a href="#caching-at-the-database-query-level">Caching at the database query level</a></li>
+<li><a href="#caching-at-the-object-level">Caching at the object level</a></li>
+<li><a href="#when-to-update-the-cache">When to update the cache</a>
+<ul>
+<li><a href="#cache-aside">Cache-aside</a></li>
+<li><a href="#write-through">Write-through</a></li>
+<li><a href="#write-behind-write-back">Write-behind (write-back)</a></li>
+<li><a href="#refresh-ahead">Refresh-ahead</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#asynchronism">Asynchronism</a>
+<ul>
+<li><a href="#message-queues">Message queues</a></li>
+<li><a href="#task-queues">Task queues</a></li>
+<li><a href="#back-pressure">Back pressure</a></li>
+</ul>
+</li>
+<li><a href="#communication">Communication</a>
+<ul>
+<li><a href="#transmission-control-protocol-tcp">Transmission control protocol (TCP)</a></li>
+<li><a href="#user-datagram-protocol-udp">User datagram protocol (UDP)</a></li>
+<li><a href="#remote-procedure-call-rpc">Remote procedure call (RPC)</a></li>
+<li><a href="#representational-state-transfer-rest">Representational state transfer (REST)</a></li>
+</ul>
+</li>
+<li><a href="#security">Security</a></li>
+<li><a href="#appendix">Appendix</a>
+<ul>
+<li><a href="#powers-of-two-table">Powers of two table</a></li>
+<li><a href="#latency-numbers-every-programmer-should-know">Latency numbers every programmer should know</a></li>
+<li><a href="#additional-system-design">Additional system design</a></li>
+<li><a href="#real-world-architectures">Real world architectures</a></li>
+<li><a href="#company-architectures">Company architectures</a></li>
+<li><a href="#company-engineering-blogs">Company engineering blogs</a></li>
+</ul>
+</li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h2>How to approach a system design questions</h2>
+<blockquote>
+<p>How to tackle a system design question.s</p>
+</blockquote>
+<p>The system design is an <strong>open-ended conversation</strong>.  You are expected to lead it.</p>
+<p>You can use the following steps to guide the discussion.  To help solidify this process, work through the <a href="#system-design-questions-with-solutions">System design questions with solutions</a> section using the following steps.</p>
+<h3>Step 1: Outline use cases, constraints, and assumptions</h3>
+<p>Gather requirements and scope the problem.  Ask questions to clarify use cases and constraints.  Discuss assumptions.</p>
+<ul>
+<li>Who is going to use it?</li>
+<li>How are they going to use it?</li>
+<li>How many users are there?</li>
+<li>What does the system do?</li>
+<li>What are the inputs and outputs of the system?</li>
+<li>How much data do we expect to handle?</li>
+<li>How many requests per second do we expect?</li>
+<li>What is the expected read to write ratio?</li>
+</ul>
+<h3>Step 2: Create a high level design</h3>
+<p>Outline a high level design with all important components.</p>
+<ul>
+<li>Sketch the main components and connections</li>
+<li>Justify your ideas</li>
+</ul>
+<h3>Step 3: Design core components</h3>
+<p>Dive into details for each core component.  For example, if you were asked to <a href="solutions/system_design/pastebin/sergeyleschev-system-design-roadmap.md">design a url shortening service</a>, discuss:</p>
+<ul>
+<li>Generating and storing a hash of the full url
+<ul>
+<li><a href="solutions/system_design/pastebin/sergeyleschev-system-design-roadmap.md">MD5</a> and <a href="solutions/system_design/pastebin/sergeyleschev-system-design-roadmap.md">Base62</a></li>
+<li>Hash collisions</li>
+<li>SQL or NoSQL</li>
+<li>Database schema</li>
+</ul>
+</li>
+<li>Translating a hashed url to the full url
+<ul>
+<li>Database lookup</li>
+</ul>
+</li>
+<li>API and object-oriented design</li>
+</ul>
+<h3>Step 4: Scale the design</h3>
+<p>Identify and address bottlenecks, given the constraints.  For example, do you need the following to address scalability issues?</p>
+<ul>
+<li>Load balancer</li>
+<li>Horizontal scaling</li>
+<li>Caching</li>
+<li>Database sharding</li>
+</ul>
+<p>Discuss potential solutions and trade-offs.  Everything is a trade-off.  Address bottlenecks using <a href="#index-of-system-design-topics">principles of scalable system design</a>.</p>
+<h3>Back-of-the-envelope calculations</h3>
+<p>You might be asked to do some estimates by hand.  Refer to the <a href="#appendix">Appendix</a> for the following resources:</p>
+<ul>
+<li><a href="http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html">Use back of the envelope calculations</a></li>
+<li><a href="#powers-of-two-table">Powers of two table</a></li>
+<li><a href="#latency-numbers-every-programmer-should-know">Latency numbers every programmer should know</a></li>
+</ul>
+<h3>Source(s) and further reading</h3>
+<p>Check out the following links to get a better idea of what to expect:</p>
+<ul>
+<li><a href="https://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/">How to ace a systems design questions</a></li>
+<li><a href="http://www.hiredintech.com/system-design">The system design questions</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZgdS0EUmn70">Intro to Architecture and Systems Design questions</a></li>
+<li><a href="https://leetcode.com/discuss/career/229177/My-System-Design-Template">System design template</a></li>
+</ul>
+<h2>System design questions with solutions</h2>
+<blockquote>
+<p>Common system design questions with sample discussions, code, and diagrams.</p>
+<p>Solutions linked to content in the <code>solutions/</code> folder.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Design Pastebin.com (or Bit.ly)</td>
+<td><a href="solutions/system_design/pastebin/sergeyleschev-system-design-roadmap.md">Solution</a></td>
+</tr>
+<tr>
+<td>Design the Twitter timeline and search (or Facebook feed and search)</td>
+<td><a href="solutions/system_design/twitter/sergeyleschev-system-design-roadmap.md">Solution</a></td>
+</tr>
+<tr>
+<td>Design a web crawler</td>
+<td><a href="solutions/system_design/web_crawler/sergeyleschev-system-design-roadmap.md">Solution</a></td>
+</tr>
+<tr>
+<td>Design Mint.com</td>
+<td><a href="solutions/system_design/mint/sergeyleschev-system-design-roadmap.md">Solution</a></td>
+</tr>
+<tr>
+<td>Design the data structures for a social network</td>
+<td><a href="solutions/system_design/social_graph/sergeyleschev-system-design-roadmap.md">Solution</a></td>
+</tr>
+<tr>
+<td>Design a key-value store for a search engine</td>
+<td><a href="solutions/system_design/query_cache/sergeyleschev-system-design-roadmap.md">Solution</a></td>
+</tr>
+<tr>
+<td>Design Amazon’s sales ranking by category feature</td>
+<td><a href="solutions/system_design/sales_rank/sergeyleschev-system-design-roadmap.md">Solution</a></td>
+</tr>
+<tr>
+<td>Design a system that scales to millions of users on AWS</td>
+<td><a href="solutions/system_design/scaling_aws/sergeyleschev-system-design-roadmap.md">Solution</a></td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+<h3>Design Pastebin.com (or Bit.ly)</h3>
+<p><a href="solutions/system_design/pastebin/sergeyleschev-system-design-roadmap.md">View solution</a></p>
+<img alt="system design" src="images/4edXG0T.png?raw=true" width="400">
+<div style="page-break-after: always;"></div>
+<h3>Design the Twitter timeline and search (or Facebook feed and search)</h3>
+<p><a href="solutions/system_design/twitter/sergeyleschev-system-design-roadmap.md">View solution</a></p>
+<img alt="system design" src="images/jrUBAF7.png?raw=true" width="400">
+<div style="page-break-after: always;"></div>
+<h3>Design a web crawler</h3>
+<p><a href="solutions/system_design/web_crawler/sergeyleschev-system-design-roadmap.md">View solution</a></p>
+<img alt="system design" src="images/bWxPtQA.png?raw=true" width="400">
+<div style="page-break-after: always;"></div>
+<h3>Design Mint.com</h3>
+<p><a href="solutions/system_design/mint/sergeyleschev-system-design-roadmap.md">View solution</a></p>
+<img alt="system design" src="images/V5q57vU.png?raw=true" width="400">
+<div style="page-break-after: always;"></div>
+<h3>Design the data structures for a social network</h3>
+<p><a href="solutions/system_design/social_graph/sergeyleschev-system-design-roadmap.md">View solution</a></p>
+<img alt="system design" src="images/cdCv5g7.png?raw=true" width="400">
+<div style="page-break-after: always;"></div>
+<h3>Design a key-value store for a search engine</h3>
+<p><a href="solutions/system_design/query_cache/sergeyleschev-system-design-roadmap.md">View solution</a></p>
+<img alt="system design" src="images/4j99mhe.png?raw=true" width="400">
+<div style="page-break-after: always;"></div>
+<h3>Design Amazon’s sales ranking by category feature</h3>
+<p><a href="solutions/system_design/sales_rank/sergeyleschev-system-design-roadmap.md">View solution</a></p>
+<img alt="system design" src="images/MzExP06.png?raw=true" width="400">
+<div style="page-break-after: always;"></div>
+<h3>Design a system that scales to millions of users on AWS</h3>
+<p><a href="solutions/system_design/scaling_aws/sergeyleschev-system-design-roadmap.md">View solution</a></p>
+<img alt="system design" src="images/jj3A5N8.png?raw=true" width="400">
+<div style="page-break-after: always;"></div>
+<h2>Object-oriented design questions with solutions</h2>
+<blockquote>
+<p>Common object-oriented design questions with sample discussions, code, and diagrams.</p>
+<p>Solutions linked to content in the <code>solutions/</code> folder.</p>
+</blockquote>
+<blockquote>
+<p><strong>Note: This section is under development</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Design a hash map</td>
+<td><a href="solutions/object_oriented_design/hash_table/hash_map.ipynb">Solution</a></td>
+</tr>
+<tr>
+<td>Design a least recently used cache</td>
+<td><a href="solutions/object_oriented_design/lru_cache/lru_cache.ipynb">Solution</a></td>
+</tr>
+<tr>
+<td>Design a call center</td>
+<td><a href="solutions/object_oriented_design/call_center/call_center.ipynb">Solution</a></td>
+</tr>
+<tr>
+<td>Design a deck of cards</td>
+<td><a href="solutions/object_oriented_design/deck_of_cards/deck_of_cards.ipynb">Solution</a></td>
+</tr>
+<tr>
+<td>Design a parking lot</td>
+<td><a href="solutions/object_oriented_design/parking_lot/parking_lot.ipynb">Solution</a></td>
+</tr>
+<tr>
+<td>Design a chat server</td>
+<td><a href="solutions/object_oriented_design/online_chat/online_chat.ipynb">Solution</a></td>
+</tr>
+</tbody>
+</table>
+<h2>System design topics: start here</h2>
+<p>New to system design?</p>
+<p>First, you’ll need a basic understanding of common principles, learning about what they are, how they are used, and their pros and cons.</p>
+<h3>Step 1: Review the scalability video lecture</h3>
+<p><a href="https://www.youtube.com/watch?v=-W9F__D3oY4">Scalability Lecture at Harvard</a></p>
+<ul>
+<li>Topics covered:
+<ul>
+<li>Vertical scaling</li>
+<li>Horizontal scaling</li>
+<li>Caching</li>
+<li>Load balancing</li>
+<li>Database replication</li>
+<li>Database partitioning</li>
+</ul>
+</li>
+</ul>
+<h3>Step 2: Review the scalability article</h3>
+<p><a href="http://www.lecloud.net/tagged/scalability/chrono">Scalability</a></p>
+<ul>
+<li>Topics covered:
+<ul>
+<li><a href="http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones">Clones</a></li>
+<li><a href="http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database">Databases</a></li>
+<li><a href="http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache">Caches</a></li>
+<li><a href="http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism">Asynchronism</a></li>
+</ul>
+</li>
+</ul>
+<h3>Next steps</h3>
+<p>Next, we’ll look at high-level trade-offs:</p>
+<ul>
+<li><strong>Performance</strong> vs <strong>scalability</strong></li>
+<li><strong>Latency</strong> vs <strong>throughput</strong></li>
+<li><strong>Availability</strong> vs <strong>consistency</strong></li>
+</ul>
+<p>Keep in mind that <strong>everything is a trade-off</strong>.</p>
+<p>Then we’ll dive into more specific topics such as DNS, CDNs, and load balancers.</p>
+<h2>Performance vs scalability</h2>
+<p>A service is <strong>scalable</strong> if it results in increased <strong>performance</strong> in a manner proportional to resources added. Generally, increasing performance means serving more units of work, but it can also be to handle larger units of work, such as when datasets grow.<sup><a href="http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html">1</a></sup></p>
+<p>Another way to look at performance vs scalability:</p>
+<ul>
+<li>If you have a <strong>performance</strong> problem, your system is slow for a single user.</li>
+<li>If you have a <strong>scalability</strong> problem, your system is fast for a single user but slow under heavy load.</li>
+</ul>
+<h3>Source(s) and further reading</h3>
+<ul>
+<li><a href="http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html">A word on scalability</a></li>
+<li><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Scalability, availability, stability, patterns</a></li>
+</ul>
+<h2>Latency vs throughput</h2>
+<p><strong>Latency</strong> is the time to perform some action or to produce some result.</p>
+<p><strong>Throughput</strong> is the number of such actions or results per unit of time.</p>
+<p>Generally, you should aim for <strong>maximal throughput</strong> with <strong>acceptable latency</strong>.</p>
+<h3>Source(s) and further reading</h3>
+<ul>
+<li><a href="https://community.cadence.com/cadence_blogs_8/b/sd/archive/2010/09/13/understanding-latency-vs-throughput">Understanding latency vs throughput</a></li>
+</ul>
+<h2>Availability vs consistency</h2>
+<h3>CAP theorem</h3>
+<p align="center">
+  <img src="images/bgLMI2u.png?raw=true">
+  <br>
+  <i><a href="http://robertgreiner.com/2014/08/cap-theorem-revisited">Source: CAP theorem revisited</a></i>
+</p>
+<p>In a distributed computer system, you can only support two of the following guarantees:</p>
+<ul>
+<li><strong>Consistency</strong> - Every read receives the most recent write or an error</li>
+<li><strong>Availability</strong> - Every request receives a response, without guarantee that it contains the most recent version of the information</li>
+<li><strong>Partition Tolerance</strong> - The system continues to operate despite arbitrary partitioning due to network failures</li>
+</ul>
+<p><em>Networks aren’t reliable, so you’ll need to support partition tolerance.  You’ll need to make a software tradeoff between consistency and availability.</em></p>
+<h4>CP - consistency and partition tolerance</h4>
+<p>Waiting for a response from the partitioned node might result in a timeout error.  CP is a good choice if your business needs require atomic reads and writes.</p>
+<h4>AP - availability and partition tolerance</h4>
+<p>Responses return the most readily available version of the data available on any node, which might not be the latest.  Writes might take some time to propagate when the partition is resolved.</p>
+<p>AP is a good choice if the business needs allow for <a href="#eventual-consistency">eventual consistency</a> or when the system needs to continue working despite external errors.</p>
+<h3>Source(s) and further reading</h3>
+<ul>
+<li><a href="http://robertgreiner.com/2014/08/cap-theorem-revisited/">CAP theorem revisited</a></li>
+<li><a href="http://ksat.me/a-plain-english-introduction-to-cap-theorem">A plain english introduction to CAP theorem</a></li>
+<li><a href="https://github.com/henryr/cap-faq">CAP FAQ</a></li>
+<li><a href="https://www.youtube.com/watch?v=k-Yaq8AHlFA">The CAP theorem</a></li>
+</ul>
+<h2>Consistency patterns</h2>
+<p>With multiple copies of the same data, we are faced with options on how to synchronize them so clients have a consistent view of the data.  Recall the definition of consistency from the <a href="#cap-theorem">CAP theorem</a> - Every read receives the most recent write or an error.</p>
+<h3>Weak consistency</h3>
+<p>After a write, reads may or may not see it.  A best effort approach is taken.</p>
+<p>This approach is seen in systems such as memcached.  Weak consistency works well in real time use cases such as VoIP, video chat, and realtime multiplayer games.  For example, if you are on a phone call and lose reception for a few seconds, when you regain connection you do not hear what was spoken during connection loss.</p>
+<h3>Eventual consistency</h3>
+<p>After a write, reads will eventually see it (typically within milliseconds).  Data is replicated asynchronously.</p>
+<p>This approach is seen in systems such as DNS and email.  Eventual consistency works well in highly available systems.</p>
+<h3>Strong consistency</h3>
+<p>After a write, reads will see it.  Data is replicated synchronously.</p>
+<p>This approach is seen in file systems and RDBMSes.  Strong consistency works well in systems that need transactions.</p>
+<h3>Source(s) and further reading</h3>
+<ul>
+<li><a href="http://snarfed.org/transactions_across_datacenters_io.html">Transactions across data centers</a></li>
+</ul>
+<h2>Availability patterns</h2>
+<p>There are two complementary patterns to support high availability: <strong>fail-over</strong> and <strong>replication</strong>.</p>
+<h3>Fail-over</h3>
+<h4>Active-passive</h4>
+<p>With active-passive fail-over, heartbeats are sent between the active and the passive server on standby.  If the heartbeat is interrupted, the passive server takes over the active’s IP address and resumes service.</p>
+<p>The length of downtime is determined by whether the passive server is already running in ‘hot’ standby or whether it needs to start up from ‘cold’ standby.  Only the active server handles traffic.</p>
+<p>Active-passive failover can also be referred to as master-slave failover.</p>
+<h4>Active-active</h4>
+<p>In active-active, both servers are managing traffic, spreading the load between them.</p>
+<p>If the servers are public-facing, the DNS would need to know about the public IPs of both servers.  If the servers are internal-facing, application logic would need to know about both servers.</p>
+<p>Active-active failover can also be referred to as master-master failover.</p>
+<h3>Disadvantage(s): failover</h3>
+<ul>
+<li>Fail-over adds more hardware and additional complexity.</li>
+<li>There is a potential for loss of data if the active system fails before any newly written data can be replicated to the passive.</li>
+</ul>
+<h3>Replication</h3>
+<h4>Master-slave and master-master</h4>
+<p>This topic is further discussed in the <a href="#database">Database</a> section:</p>
+<ul>
+<li><a href="#master-slave-replication">Master-slave replication</a></li>
+<li><a href="#master-master-replication">Master-master replication</a></li>
+</ul>
+<h3>Availability in numbers</h3>
+<p>Availability is often quantified by uptime (or downtime) as a percentage of time the service is available.  Availability is generally measured in number of 9s–a service with 99.99% availability is described as having four 9s.</p>
+<h4>99.9% availability - three 9s</h4>
+<table>
+<thead>
+<tr>
+<th>Duration</th>
+<th>Acceptable downtime</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Downtime per year</td>
+<td>8h 45min 57s</td>
+</tr>
+<tr>
+<td>Downtime per month</td>
+<td>43m 49.7s</td>
+</tr>
+<tr>
+<td>Downtime per week</td>
+<td>10m 4.8s</td>
+</tr>
+<tr>
+<td>Downtime per day</td>
+<td>1m 26.4s</td>
+</tr>
+</tbody>
+</table>
+<h4>99.99% availability - four 9s</h4>
+<table>
+<thead>
+<tr>
+<th>Duration</th>
+<th>Acceptable downtime</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Downtime per year</td>
+<td>52min 35.7s</td>
+</tr>
+<tr>
+<td>Downtime per month</td>
+<td>4m 23s</td>
+</tr>
+<tr>
+<td>Downtime per week</td>
+<td>1m 5s</td>
+</tr>
+<tr>
+<td>Downtime per day</td>
+<td>8.6s</td>
+</tr>
+</tbody>
+</table>
+<h4>Availability in parallel vs in sequence</h4>
+<p>If a service consists of multiple components prone to failure, the service’s overall availability depends on whether the components are in sequence or in parallel.</p>
+<h6>In sequence</h6>
+<p>Overall availability decreases when two components with availability &lt; 100% are in sequence:</p>
+<pre><code>Availability (Total) = Availability (Foo) * Availability (Bar)
+</code></pre>
+<p>If both <code>Foo</code> and <code>Bar</code> each had 99.9% availability, their total availability in sequence would be 99.8%.</p>
+<h6>In parallel</h6>
+<p>Overall availability increases when two components with availability &lt; 100% are in parallel:</p>
+<pre><code>Availability (Total) = 1 - (1 - Availability (Foo)) * (1 - Availability (Bar))
+</code></pre>
+<p>If both <code>Foo</code> and <code>Bar</code> each had 99.9% availability, their total availability in parallel would be 99.9999%.</p>
+<h2>Domain name system</h2>
+<p align="center">
+  <img src="images/IOyLj4i.png?raw=true">
+  <br>
+  <i><a href="http://www.slideshare.net/srikrupa5/dns-security-presentation-issa">Source: DNS security presentation</a></i>
+</p>
+<p>A Domain Name System (DNS) translates a domain name such as www.example.com to an IP address.</p>
+<p>DNS is hierarchical, with a few authoritative servers at the top level.  Your router or ISP provides information about which DNS server(s) to contact when doing a lookup.  Lower level DNS servers cache mappings, which could become stale due to DNS propagation delays.  DNS results can also be cached by your browser or OS for a certain period of time, determined by the <a href="https://en.wikipedia.org/wiki/Time_to_live">time to live (TTL)</a>.</p>
+<ul>
+<li><strong>NS record (name server)</strong> - Specifies the DNS servers for your domain/subdomain.</li>
+<li><strong>MX record (mail exchange)</strong> - Specifies the mail servers for accepting messages.</li>
+<li><strong>A record (address)</strong> - Points a name to an IP address.</li>
+<li><strong>CNAME (canonical)</strong> - Points a name to another name or <code>CNAME</code> (example.com to www.example.com) or to an <code>A</code> record.</li>
+</ul>
+<p>Services such as <a href="https://www.cloudflare.com/dns/">CloudFlare</a> and <a href="https://aws.amazon.com/route53/">Route 53</a> provide managed DNS services.  Some DNS services can route traffic through various methods:</p>
+<ul>
+<li><a href="https://www.g33kinfo.com/info/round-robin-vs-weighted-round-robin-lb">Weighted round robin</a>
+<ul>
+<li>Prevent traffic from going to servers under maintenance</li>
+<li>Balance between varying cluster sizes</li>
+<li>A/B testing</li>
+</ul>
+</li>
+<li><a href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html#routing-policy-latency">Latency-based</a></li>
+<li><a href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html#routing-policy-geo">Geolocation-based</a></li>
+</ul>
+<h3>Disadvantage(s): DNS</h3>
+<ul>
+<li>Accessing a DNS server introduces a slight delay, although mitigated by caching described above.</li>
+<li>DNS server management could be complex and is generally managed by <a href="http://superuser.com/questions/472695/who-controls-the-dns-servers/472729">governments, ISPs, and large companies</a>.</li>
+<li>DNS services have recently come under <a href="http://dyn.com/blog/dyn-analysis-summary-of-friday-october-21-attack/">DDoS attack</a>, preventing users from accessing websites such as Twitter without knowing Twitter’s IP address(es).</li>
+</ul>
+<h3>Source(s) and further reading</h3>
+<ul>
+<li><a href="https://technet.microsoft.com/en-us/library/dd197427(v=ws.10).aspx">DNS architecture</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Domain_Name_System">Wikipedia</a></li>
+<li><a href="https://support.dnsimple.com/categories/dns/">DNS articles</a></li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h2>Content delivery network</h2>
+<p align="center">
+  <img src="images/h9TAuGI.png?raw=true">
+  <br>
+  <i><a href="https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/">Source: Why use a CDN</a></i>
+</p>
+<p>A content delivery network (CDN) is a globally distributed network of proxy servers, serving content from locations closer to the user.  Generally, static files such as HTML/CSS/JS, photos, and videos are served from CDN, although some CDNs such as Amazon’s CloudFront support dynamic content.  The site’s DNS resolution will tell clients which server to contact.</p>
+<p>Serving content from CDNs can significantly improve performance in two ways:</p>
+<ul>
+<li>Users receive content from data centers close to them</li>
+<li>Your servers do not have to serve requests that the CDN fulfills</li>
+</ul>
+<h3>Push CDNs</h3>
+<p>Push CDNs receive new content whenever changes occur on your server.  You take full responsibility for providing content, uploading directly to the CDN and rewriting URLs to point to the CDN.  You can configure when content expires and when it is updated.  Content is uploaded only when it is new or changed, minimizing traffic, but maximizing storage.</p>
+<p>Sites with a small amount of traffic or sites with content that isn’t often updated work well with push CDNs.  Content is placed on the CDNs once, instead of being re-pulled at regular intervals.</p>
+<h3>Pull CDNs</h3>
+<p>Pull CDNs grab new content from your server when the first user requests the content.  You leave the content on your server and rewrite URLs to point to the CDN.  This results in a slower request until the content is cached on the CDN.</p>
+<p>A <a href="https://en.wikipedia.org/wiki/Time_to_live">time-to-live (TTL)</a> determines how long content is cached.  Pull CDNs minimize storage space on the CDN, but can create redundant traffic if files expire and are pulled before they have actually changed.</p>
+<p>Sites with heavy traffic work well with pull CDNs, as traffic is spread out more evenly with only recently-requested content remaining on the CDN.</p>
+<h3>Disadvantage(s): CDN</h3>
+<ul>
+<li>CDN costs could be significant depending on traffic, although this should be weighed with additional costs you would incur not using a CDN.</li>
+<li>Content might be stale if it is updated before the TTL expires it.</li>
+<li>CDNs require changing URLs for static content to point to the CDN.</li>
+</ul>
+<h3>Source(s) and further reading</h3>
+<ul>
+<li><a href="https://figshare.com/articles/Globally_distributed_content_delivery/6605972">Globally distributed content delivery</a></li>
+<li><a href="http://www.travelblogadvice.com/technical/the-differences-between-push-and-pull-cdns/">The differences between push and pull CDNs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Content_delivery_network">Wikipedia</a></li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h2>Load balancer</h2>
+<p align="center">
+  <img src="images/h81n9iK.png?raw=true">
+  <br>
+  <i><a href="http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">Source: Scalable system design patterns</a></i>
+</p>
+<p>Load balancers distribute incoming client requests to computing resources such as application servers and databases.  In each case, the load balancer returns the response from the computing resource to the appropriate client.  Load balancers are effective at:</p>
+<ul>
+<li>Preventing requests from going to unhealthy servers</li>
+<li>Preventing overloading resources</li>
+<li>Helping to eliminate a single point of failure</li>
+</ul>
+<p>Load balancers can be implemented with hardware (expensive) or with software such as HAProxy.</p>
+<p>Additional benefits include:</p>
+<ul>
+<li><strong>SSL termination</strong> - Decrypt incoming requests and encrypt server responses so backend servers do not have to perform these potentially expensive operations
+<ul>
+<li>Removes the need to install <a href="https://en.wikipedia.org/wiki/X.509">X.509 certificates</a> on each server</li>
+</ul>
+</li>
+<li><strong>Session persistence</strong> - Issue cookies and route a specific client’s requests to same instance if the web apps do not keep track of sessions</li>
+</ul>
+<p>To protect against failures, it’s common to set up multiple load balancers, either in <a href="#active-passive">active-passive</a> or <a href="#active-active">active-active</a> mode.</p>
+<p>Load balancers can route traffic based on various metrics, including:</p>
+<ul>
+<li>Random</li>
+<li>Least loaded</li>
+<li>Session/cookies</li>
+<li><a href="https://www.g33kinfo.com/info/round-robin-vs-weighted-round-robin-lb">Round robin or weighted round robin</a></li>
+<li><a href="#layer-4-load-balancing">Layer 4</a></li>
+<li><a href="#layer-7-load-balancing">Layer 7</a></li>
+</ul>
+<h3>Layer 4 load balancing</h3>
+<p>Layer 4 load balancers look at info at the <a href="#communication">transport layer</a> to decide how to distribute requests.  Generally, this involves the source, destination IP addresses, and ports in the header, but not the contents of the packet.  Layer 4 load balancers forward network packets to and from the upstream server, performing <a href="https://www.nginx.com/resources/glossary/layer-4-load-balancing/">Network Address Translation (NAT)</a>.</p>
+<h3>Layer 7 load balancing</h3>
+<p>Layer 7 load balancers look at the <a href="#communication">application layer</a> to decide how to distribute requests.  This can involve contents of the header, message, and cookies.  Layer 7 load balancers terminate network traffic, reads the message, makes a load-balancing decision, then opens a connection to the selected server.  For example, a layer 7 load balancer can direct video traffic to servers that host videos while directing more sensitive user billing traffic to security-hardened servers.</p>
+<p>At the cost of flexibility, layer 4 load balancing requires less time and computing resources than Layer 7, although the performance impact can be minimal on modern commodity hardware.</p>
+<h3>Horizontal scaling</h3>
+<p>Load balancers can also help with horizontal scaling, improving performance and availability.  Scaling out using commodity machines is more cost efficient and results in higher availability than scaling up a single server on more expensive hardware, called <strong>Vertical Scaling</strong>.  It is also easier to hire for talent working on commodity hardware than it is for specialized enterprise systems.</p>
+<h4>Disadvantage(s): horizontal scaling</h4>
+<ul>
+<li>Scaling horizontally introduces complexity and involves cloning servers
+<ul>
+<li>Servers should be stateless: they should not contain any user-related data like sessions or profile pictures</li>
+<li>Sessions can be stored in a centralized data store such as a <a href="#database">database</a> (SQL, NoSQL) or a persistent <a href="#cache">cache</a> (Redis, Memcached)</li>
+</ul>
+</li>
+<li>Downstream servers such as caches and databases need to handle more simultaneous connections as upstream servers scale out</li>
+</ul>
+<h3>Disadvantage(s): load balancer</h3>
+<ul>
+<li>The load balancer can become a performance bottleneck if it does not have enough resources or if it is not configured properly.</li>
+<li>Introducing a load balancer to help eliminate a single point of failure results in increased complexity.</li>
+<li>A single load balancer is a single point of failure, configuring multiple load balancers further increases complexity.</li>
+</ul>
+<h3>Source(s) and further reading</h3>
+<ul>
+<li><a href="https://www.nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/">NGINX architecture</a></li>
+<li><a href="http://www.haproxy.org/download/1.2/doc/architecture.txt">HAProxy architecture guide</a></li>
+<li><a href="http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones">Scalability</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Load_balancing_(computing)">Wikipedia</a></li>
+<li><a href="https://www.nginx.com/resources/glossary/layer-4-load-balancing/">Layer 4 load balancing</a></li>
+<li><a href="https://www.nginx.com/resources/glossary/layer-7-load-balancing/">Layer 7 load balancing</a></li>
+<li><a href="http://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-listener-config.html">ELB listener config</a></li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h2>Reverse proxy (web server)</h2>
+<p align="center">
+  <img src="images/n41Azff.png?raw=true">
+  <br>
+  <i><a href="https://upload.wikimedia.org/wikipedia/commons/6/67/Reverse_proxy_h2g2bob.svg">Source: Wikipedia</a></i>
+  <br>
+</p>
+<p>A reverse proxy is a web server that centralizes internal services and provides unified interfaces to the public.  Requests from clients are forwarded to a server that can fulfill it before the reverse proxy returns the server’s response to the client.</p>
+<p>Additional benefits include:</p>
+<ul>
+<li><strong>Increased security</strong> - Hide information about backend servers, blacklist IPs, limit number of connections per client</li>
+<li><strong>Increased scalability and flexibility</strong> - Clients only see the reverse proxy’s IP, allowing you to scale servers or change their configuration</li>
+<li><strong>SSL termination</strong> - Decrypt incoming requests and encrypt server responses so backend servers do not have to perform these potentially expensive operations
+<ul>
+<li>Removes the need to install <a href="https://en.wikipedia.org/wiki/X.509">X.509 certificates</a> on each server</li>
+</ul>
+</li>
+<li><strong>Compression</strong> - Compress server responses</li>
+<li><strong>Caching</strong> - Return the response for cached requests</li>
+<li><strong>Static content</strong> - Serve static content directly
+<ul>
+<li>HTML/CSS/JS</li>
+<li>Photos</li>
+<li>Videos</li>
+<li>Etc</li>
+</ul>
+</li>
+</ul>
+<h3>Load balancer vs reverse proxy</h3>
+<ul>
+<li>Deploying a load balancer is useful when you have multiple servers.  Often, load balancers  route traffic to a set of servers serving the same function.</li>
+<li>Reverse proxies can be useful even with just one web server or application server, opening up the benefits described in the previous section.</li>
+<li>Solutions such as NGINX and HAProxy can support both layer 7 reverse proxying and load balancing.</li>
+</ul>
+<h3>Disadvantage(s): reverse proxy</h3>
+<ul>
+<li>Introducing a reverse proxy results in increased complexity.</li>
+<li>A single reverse proxy is a single point of failure, configuring multiple reverse proxies (ie a <a href="https://en.wikipedia.org/wiki/Failover">failover</a>) further increases complexity.</li>
+</ul>
+<h3>Source(s) and further reading</h3>
+<ul>
+<li><a href="https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer/">Reverse proxy vs load balancer</a></li>
+<li><a href="https://www.nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/">NGINX architecture</a></li>
+<li><a href="http://www.haproxy.org/download/1.2/doc/architecture.txt">HAProxy architecture guide</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Reverse_proxy">Wikipedia</a></li>
+</ul>
+<h2>Application layer</h2>
+<p align="center">
+  <img src="images/yB5SYwm.png?raw=true">
+  <br>
+  <i><a href="http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer">Source: Intro to architecting systems for scale</a></i>
+</p>
+<p>Separating out the web layer from the application layer (also known as platform layer) allows you to scale and configure both layers independently.  Adding a new API results in adding application servers without necessarily adding additional web servers.  The <strong>single responsibility principle</strong> advocates for small and autonomous services that work together.  Small teams with small services can plan more aggressively for rapid growth.</p>
+<p>Workers in the application layer also help enable <a href="#asynchronism">asynchronism</a>.</p>
+<h3>Microservices</h3>
+<p>Related to this discussion are <a href="https://en.wikipedia.org/wiki/Microservices">microservices</a>, which can be described as a suite of independently deployable, small, modular services.  Each service runs a unique process and communicates through a well-defined, lightweight mechanism to serve a business goal. <sup><a href="https://smartbear.com/learn/api-design/what-are-microservices">1</a></sup></p>
+<p>Pinterest, for example, could have the following microservices: user profile, follower, feed, search, photo upload, etc.</p>
+<h3>Service Discovery</h3>
+<p>Systems such as <a href="https://www.consul.io/docs/index.html">Consul</a>, <a href="https://coreos.com/etcd/docs/latest">Etcd</a>, and <a href="http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper">Zookeeper</a> can help services find each other by keeping track of registered names, addresses, and ports.  <a href="https://www.consul.io/intro/getting-started/checks.html">Health checks</a> help verify service integrity and are often done using an <a href="#hypertext-transfer-protocol-http">HTTP</a> endpoint.  Both Consul and Etcd have a built in <a href="#key-value-store">key-value store</a> that can be useful for storing config values and other shared data.</p>
+<h3>Disadvantage(s): application layer</h3>
+<ul>
+<li>Adding an application layer with loosely coupled services requires a different approach from an architectural, operations, and process viewpoint (vs a monolithic system).</li>
+<li>Microservices can add complexity in terms of deployments and operations.</li>
+</ul>
+<h3>Source(s) and further reading</h3>
+<ul>
+<li><a href="http://lethain.com/introduction-to-architecting-systems-for-scale">Intro to architecting systems for scale</a></li>
+<li><a href="http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview">Crack the system design questions</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Service-oriented_architecture">Service oriented architecture</a></li>
+<li><a href="http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper">Introduction to Zookeeper</a></li>
+<li><a href="https://cloudncode.wordpress.com/2016/07/22/msa-getting-started/">Here’s what you need to know about building microservices</a></li>
+</ul>
+<h2>Database</h2>
+<p align="center">
+  <img src="images/Xkm5CXz.png?raw=true">
+  <br>
+  <i><a href="https://www.youtube.com/watch?v=kKjm4ehYiMs">Source: Scaling up to your first 10 million users</a></i>
+</p>
+<h3>Relational database management system (RDBMS)</h3>
+<p>A relational database like SQL is a collection of data items organized in tables.</p>
+<p><strong>ACID</strong> is a set of properties of relational database <a href="https://en.wikipedia.org/wiki/Database_transaction">transactions</a>.</p>
+<ul>
+<li><strong>Atomicity</strong> - Each transaction is all or nothing</li>
+<li><strong>Consistency</strong> - Any transaction will bring the database from one valid state to another</li>
+<li><strong>Isolation</strong> - Executing transactions concurrently has the same results as if the transactions were executed serially</li>
+<li><strong>Durability</strong> - Once a transaction has been committed, it will remain so</li>
+</ul>
+<p>There are many techniques to scale a relational database: <strong>master-slave replication</strong>, <strong>master-master replication</strong>, <strong>federation</strong>, <strong>sharding</strong>, <strong>denormalization</strong>, and <strong>SQL tuning</strong>.</p>
+<h4>Master-slave replication</h4>
+<p>The master serves reads and writes, replicating writes to one or more slaves, which serve only reads.  Slaves can also replicate to additional slaves in a tree-like fashion.  If the master goes offline, the system can continue to operate in read-only mode until a slave is promoted to a master or a new master is provisioned.</p>
+<p align="center">
+  <img src="images/C9ioGtn.png?raw=true">
+  <br>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
+</p>
+<h5>Disadvantage(s): master-slave replication</h5>
+<ul>
+<li>Additional logic is needed to promote a slave to a master.</li>
+<li>See <a href="#disadvantages-replication">Disadvantage(s): replication</a> for points related to <strong>both</strong> master-slave and master-master.</li>
+</ul>
+<h4>Master-master replication</h4>
+<p>Both masters serve reads and writes and coordinate with each other on writes.  If either master goes down, the system can continue to operate with both reads and writes.</p>
+<p align="center">
+  <img src="images/krAHLGg.png?raw=true">
+  <br>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
+</p>
+<h5>Disadvantage(s): master-master replication</h5>
+<ul>
+<li>You’ll need a load balancer or you’ll need to make changes to your application logic to determine where to write.</li>
+<li>Most master-master systems are either loosely consistent (violating ACID) or have increased write latency due to synchronization.</li>
+<li>Conflict resolution comes more into play as more write nodes are added and as latency increases.</li>
+<li>See <a href="#disadvantages-replication">Disadvantage(s): replication</a> for points related to <strong>both</strong> master-slave and master-master.</li>
+</ul>
+<h5>Disadvantage(s): replication</h5>
+<ul>
+<li>There is a potential for loss of data if the master fails before any newly written data can be replicated to other nodes.</li>
+<li>Writes are replayed to the read replicas.  If there are a lot of writes, the read replicas can get bogged down with replaying writes and can’t do as many reads.</li>
+<li>The more read slaves, the more you have to replicate, which leads to greater replication lag.</li>
+<li>On some systems, writing to the master can spawn multiple threads to write in parallel, whereas read replicas only support writing sequentially with a single thread.</li>
+<li>Replication adds more hardware and additional complexity.</li>
+</ul>
+<h5>Source(s) and further reading: replication</h5>
+<ul>
+<li><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Scalability, availability, stability, patterns</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Multi-master_replication">Multi-master replication</a></li>
+</ul>
+<h4>Federation</h4>
+<p align="center">
+  <img src="images/U3qV33e.png?raw=true">
+  <br>
+  <i><a href="https://www.youtube.com/watch?v=kKjm4ehYiMs">Source: Scaling up to your first 10 million users</a></i>
+</p>
+<p>Federation (or functional partitioning) splits up databases by function.  For example, instead of a single, monolithic database, you could have three databases: <strong>forums</strong>, <strong>users</strong>, and <strong>products</strong>, resulting in less read and write traffic to each database and therefore less replication lag.  Smaller databases result in more data that can fit in memory, which in turn results in more cache hits due to improved cache locality.  With no single central master serializing writes you can write in parallel, increasing throughput.</p>
+<h5>Disadvantage(s): federation</h5>
+<ul>
+<li>Federation is not effective if your schema requires huge functions or tables.</li>
+<li>You’ll need to update your application logic to determine which database to read and write.</li>
+<li>Joining data from two databases is more complex with a <a href="http://stackoverflow.com/questions/5145637/querying-data-by-joining-two-tables-in-two-database-on-different-servers">server link</a>.</li>
+<li>Federation adds more hardware and additional complexity.</li>
+</ul>
+<h5>Source(s) and further reading: federation</h5>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=kKjm4ehYiMs">Scaling up to your first 10 million users</a></li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h4>Sharding</h4>
+<p align="center">
+  <img src="images/wU8x5Id.png?raw=true">
+  <br>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
+</p>
+<p>Sharding distributes data across different databases such that each database can only manage a subset of the data.  Taking a users database as an example, as the number of users increases, more shards are added to the cluster.</p>
+<p>Similar to the advantages of <a href="#federation">federation</a>, sharding results in less read and write traffic, less replication, and more cache hits.  Index size is also reduced, which generally improves performance with faster queries.  If one shard goes down, the other shards are still operational, although you’ll want to add some form of replication to avoid data loss.  Like federation, there is no single central master serializing writes, allowing you to write in parallel with increased throughput.</p>
+<p>Common ways to shard a table of users is either through the user’s last name initial or the user’s geographic location.</p>
+<h5>Disadvantage(s): sharding</h5>
+<ul>
+<li>You’ll need to update your application logic to work with shards, which could result in complex SQL queries.</li>
+<li>Data distribution can become lopsided in a shard.  For example, a set of power users on a shard could result in increased load to that shard compared to others.
+<ul>
+<li>Rebalancing adds additional complexity.  A sharding function based on <a href="http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html">consistent hashing</a> can reduce the amount of transferred data.</li>
+</ul>
+</li>
+<li>Joining data from multiple shards is more complex.</li>
+<li>Sharding adds more hardware and additional complexity.</li>
+</ul>
+<h5>Source(s) and further reading: sharding</h5>
+<ul>
+<li><a href="http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html">The coming of the shard</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Shard_(database_architecture)">Shard database architecture</a></li>
+<li><a href="http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html">Consistent hashing</a></li>
+</ul>
+<h4>Denormalization</h4>
+<p>Denormalization attempts to improve read performance at the expense of some write performance.  Redundant copies of the data are written in multiple tables to avoid expensive joins.  Some RDBMS such as <a href="https://en.wikipedia.org/wiki/PostgreSQL">PostgreSQL</a> and Oracle support <a href="https://en.wikipedia.org/wiki/Materialized_view">materialized views</a> which handle the work of storing redundant information and keeping redundant copies consistent.</p>
+<p>Once data becomes distributed with techniques such as <a href="#federation">federation</a> and <a href="#sharding">sharding</a>, managing joins across data centers further increases complexity.  Denormalization might circumvent the need for such complex joins.</p>
+<p>In most systems, reads can heavily outnumber writes 100:1 or even 1000:1.  A read resulting in a complex database join can be very expensive, spending a significant amount of time on disk operations.</p>
+<h5>Disadvantage(s): denormalization</h5>
+<ul>
+<li>Data is duplicated.</li>
+<li>Constraints can help redundant copies of information stay in sync, which increases complexity of the database design.</li>
+<li>A denormalized database under heavy write load might perform worse than its normalized counterpart.</li>
+</ul>
+<h6>Source(s) and further reading: denormalization</h6>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Denormalization">Denormalization</a></li>
+</ul>
+<h4>SQL tuning</h4>
+<p>SQL tuning is a broad topic and many <a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&amp;field-keywords=sql+tuning">books</a> have been written as reference.</p>
+<p>It’s important to <strong>benchmark</strong> and <strong>profile</strong> to simulate and uncover bottlenecks.</p>
+<ul>
+<li><strong>Benchmark</strong> - Simulate high-load situations with tools such as <a href="http://httpd.apache.org/docs/2.2/programs/ab.html">ab</a>.</li>
+<li><strong>Profile</strong> - Enable tools such as the <a href="http://dev.mysql.com/doc/refman/5.7/en/slow-query-log.html">slow query log</a> to help track performance issues.</li>
+</ul>
+<p>Benchmarking and profiling might point you to the following optimizations.</p>
+<h5>Tighten up the schema</h5>
+<ul>
+<li>MySQL dumps to disk in contiguous blocks for fast access.</li>
+<li>Use <code>CHAR</code> instead of <code>VARCHAR</code> for fixed-length fields.
+<ul>
+<li><code>CHAR</code> effectively allows for fast, random access, whereas with <code>VARCHAR</code>, you must find the end of a string before moving onto the next one.</li>
+</ul>
+</li>
+<li>Use <code>TEXT</code> for large blocks of text such as blog posts.  <code>TEXT</code> also allows for boolean searches.  Using a <code>TEXT</code> field results in storing a pointer on disk that is used to locate the text block.</li>
+<li>Use <code>INT</code> for larger numbers up to 2^32 or 4 billion.</li>
+<li>Use <code>DECIMAL</code> for currency to avoid floating point representation errors.</li>
+<li>Avoid storing large <code>BLOBS</code>, store the location of where to get the object instead.</li>
+<li><code>VARCHAR(255)</code> is the largest number of characters that can be counted in an 8 bit number, often maximizing the use of a byte in some RDBMS.</li>
+<li>Set the <code>NOT NULL</code> constraint where applicable to <a href="http://stackoverflow.com/questions/1017239/how-do-null-values-affect-performance-in-a-database-search">improve search performance</a>.</li>
+</ul>
+<h5>Use good indices</h5>
+<ul>
+<li>Columns that you are querying (<code>SELECT</code>, <code>GROUP BY</code>, <code>ORDER BY</code>, <code>JOIN</code>) could be faster with indices.</li>
+<li>Indices are usually represented as self-balancing <a href="https://en.wikipedia.org/wiki/B-tree">B-tree</a> that keeps data sorted and allows searches, sequential access, insertions, and deletions in logarithmic time.</li>
+<li>Placing an index can keep the data in memory, requiring more space.</li>
+<li>Writes could also be slower since the index also needs to be updated.</li>
+<li>When loading large amounts of data, it might be faster to disable indices, load the data, then rebuild the indices.</li>
+</ul>
+<h5>Avoid expensive joins</h5>
+<ul>
+<li><a href="#denormalization">Denormalize</a> where performance demands it.</li>
+</ul>
+<h5>Partition tables</h5>
+<ul>
+<li>Break up a table by putting hot spots in a separate table to help keep it in memory.</li>
+</ul>
+<h5>Tune the query cache</h5>
+<ul>
+<li>In some cases, the <a href="https://dev.mysql.com/doc/refman/5.7/en/query-cache.html">query cache</a> could lead to <a href="https://www.percona.com/blog/2016/10/12/mysql-5-7-performance-tuning-immediately-after-installation/">performance issues</a>.</li>
+</ul>
+<h5>Source(s) and further reading: SQL tuning</h5>
+<ul>
+<li><a href="http://aiddroid.com/10-tips-optimizing-mysql-queries-dont-suck/">Tips for optimizing MySQL queries</a></li>
+<li><a href="http://stackoverflow.com/questions/1217466/is-there-a-good-reason-i-see-varchar255-used-so-often-as-opposed-to-another-l">Is there a good reason i see VARCHAR(255) used so often?</a></li>
+<li><a href="http://stackoverflow.com/questions/1017239/how-do-null-values-affect-performance-in-a-database-search">How do null values affect performance?</a></li>
+<li><a href="http://dev.mysql.com/doc/refman/5.7/en/slow-query-log.html">Slow query log</a></li>
+</ul>
+<h3>NoSQL</h3>
+<p>NoSQL is a collection of data items represented in a <strong>key-value store</strong>, <strong>document store</strong>, <strong>wide column store</strong>, or a <strong>graph database</strong>.  Data is denormalized, and joins are generally done in the application code.  Most NoSQL stores lack true ACID transactions and favor <a href="#eventual-consistency">eventual consistency</a>.</p>
+<p><strong>BASE</strong> is often used to describe the properties of NoSQL databases.  In comparison with the <a href="#cap-theorem">CAP Theorem</a>, BASE chooses availability over consistency.</p>
+<ul>
+<li><strong>Basically available</strong> - the system guarantees availability.</li>
+<li><strong>Soft state</strong> - the state of the system may change over time, even without input.</li>
+<li><strong>Eventual consistency</strong> - the system will become consistent over a period of time, given that the system doesn’t receive input during that period.</li>
+</ul>
+<p>In addition to choosing between <a href="#sql-or-nosql">SQL or NoSQL</a>, it is helpful to understand which type of NoSQL database best fits your use case(s).  We’ll review <strong>key-value stores</strong>, <strong>document stores</strong>, <strong>wide column stores</strong>, and <strong>graph databases</strong> in the next section.</p>
+<h4>Key-value store</h4>
+<blockquote>
+<p>Abstraction: hash table</p>
+</blockquote>
+<p>A key-value store generally allows for O(1) reads and writes and is often backed by memory or SSD.  Data stores can maintain keys in <a href="https://en.wikipedia.org/wiki/Lexicographical_order">lexicographic order</a>, allowing efficient retrieval of key ranges.  Key-value stores can allow for storing of metadata with a value.</p>
+<p>Key-value stores provide high performance and are often used for simple data models or for rapidly-changing data, such as an in-memory cache layer.  Since they offer only a limited set of operations, complexity is shifted to the application layer if additional operations are needed.</p>
+<p>A key-value store is the basis for more complex systems such as a document store, and in some cases, a graph database.</p>
+<h5>Source(s) and further reading: key-value store</h5>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Key-value_database">Key-value database</a></li>
+<li><a href="http://stackoverflow.com/questions/4056093/what-are-the-disadvantages-of-using-a-key-value-table-over-nullable-columns-or">Disadvantages of key-value stores</a></li>
+<li><a href="http://qnimate.com/overview-of-redis-architecture/">Redis architecture</a></li>
+<li><a href="https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/">Memcached architecture</a></li>
+</ul>
+<h4>Document store</h4>
+<blockquote>
+<p>Abstraction: key-value store with documents stored as values</p>
+</blockquote>
+<p>A document store is centered around documents (XML, JSON, binary, etc), where a document stores all information for a given object.  Document stores provide APIs or a query language to query based on the internal structure of the document itself.  <em>Note, many key-value stores include features for working with a value’s metadata, blurring the lines between these two storage types.</em></p>
+<p>Based on the underlying implementation, documents are organized by collections, tags, metadata, or directories.  Although documents can be organized or grouped together, documents may have fields that are completely different from each other.</p>
+<p>Some document stores like <a href="https://www.mongodb.com/mongodb-architecture">MongoDB</a> and <a href="https://blog.couchdb.org/2016/08/01/couchdb-2-0-architecture/">CouchDB</a> also provide a SQL-like language to perform complex queries.  <a href="http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf">DynamoDB</a> supports both key-values and documents.</p>
+<p>Document stores provide high flexibility and are often used for working with occasionally changing data.</p>
+<h5>Source(s) and further reading: document store</h5>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Document-oriented_database">Document-oriented database</a></li>
+<li><a href="https://www.mongodb.com/mongodb-architecture">MongoDB architecture</a></li>
+<li><a href="https://blog.couchdb.org/2016/08/01/couchdb-2-0-architecture/">CouchDB architecture</a></li>
+<li><a href="https://www.elastic.co/blog/found-elasticsearch-from-the-bottom-up">Elasticsearch architecture</a></li>
+</ul>
+<h4>Wide column store</h4>
+<p align="center">
+  <img src="images/n16iOGk.png?raw=true">
+  <br>
+  <i><a href="http://blog.grio.com/2015/11/sql-nosql-a-brief-history.html">Source: SQL &amp; NoSQL, a brief history</a></i>
+</p>
+<blockquote>
+<p>Abstraction: nested map <code>ColumnFamily&lt;RowKey, Columns&lt;ColKey, Value, Timestamp&gt;&gt;</code></p>
+</blockquote>
+<p>A wide column store’s basic unit of data is a column (name/value pair).  A column can be grouped in column families (analogous to a SQL table).  Super column families further group column families.  You can access each column independently with a row key, and columns with the same row key form a row.  Each value contains a timestamp for versioning and for conflict resolution.</p>
+<p>Google introduced <a href="http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf">Bigtable</a> as the first wide column store, which influenced the open-source <a href="https://www.edureka.co/blog/hbase-architecture/">HBase</a> often-used in the Hadoop ecosystem, and <a href="http://docs.datastax.com/en/cassandra/3.0/cassandra/architecture/archIntro.html">Cassandra</a> from Facebook.  Stores such as BigTable, HBase, and Cassandra maintain keys in lexicographic order, allowing efficient retrieval of selective key ranges.</p>
+<p>Wide column stores offer high availability and high scalability.  They are often used for very large data sets.</p>
+<h5>Source(s) and further reading: wide column store</h5>
+<ul>
+<li><a href="http://blog.grio.com/2015/11/sql-nosql-a-brief-history.html">SQL &amp; NoSQL, a brief history</a></li>
+<li><a href="http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf">Bigtable architecture</a></li>
+<li><a href="https://www.edureka.co/blog/hbase-architecture/">HBase architecture</a></li>
+<li><a href="http://docs.datastax.com/en/cassandra/3.0/cassandra/architecture/archIntro.html">Cassandra architecture</a></li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h4>Graph database</h4>
+<p align="center">
+  <img src="images/fNcl65g.png?raw=true">
+  <br>
+  <i><a href="https://en.wikipedia.org/wiki/File:GraphDatabase_PropertyGraph.png">Source: Graph database</a></i>
+</p>
+<blockquote>
+<p>Abstraction: graph</p>
+</blockquote>
+<p>In a graph database, each node is a record and each arc is a relationship between two nodes.  Graph databases are optimized to represent complex relationships with many foreign keys or many-to-many relationships.</p>
+<p>Graphs databases offer high performance for data models with complex relationships, such as a social network.  They are relatively new and are not yet widely-used; it might be more difficult to find development tools and resources.  Many graphs can only be accessed with <a href="#representational-state-transfer-rest">REST APIs</a>.</p>
+<h5>Source(s) and further reading: graph</h5>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Graph_database">Graph database</a></li>
+<li><a href="https://neo4j.com/">Neo4j</a></li>
+<li><a href="https://blog.twitter.com/2010/introducing-flockdb">FlockDB</a></li>
+</ul>
+<h4>Source(s) and further reading: NoSQL</h4>
+<ul>
+<li><a href="http://stackoverflow.com/questions/3342497/explanation-of-base-terminology">Explanation of base terminology</a></li>
+<li><a href="https://medium.com/baqend-blog/nosql-databases-a-survey-and-decision-guidance-ea7823a822d#.wskogqenq">NoSQL databases a survey and decision guidance</a></li>
+<li><a href="http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database">Scalability</a></li>
+<li><a href="https://www.youtube.com/watch?v=qI_g07C_Q5I">Introduction to NoSQL</a></li>
+<li><a href="http://horicky.blogspot.com/2009/11/nosql-patterns.html">NoSQL patterns</a></li>
+</ul>
+<h3>SQL or NoSQL</h3>
+<p align="center">
+  <img src="images/wXGqG5f.png?raw=true">
+  <br>
+  <i><a href="https://www.infoq.com/articles/Transition-RDBMS-NoSQL/">Source: Transitioning from RDBMS to NoSQL</a></i>
+</p>
+<p>Reasons for <strong>SQL</strong>:</p>
+<ul>
+<li>Structured data</li>
+<li>Strict schema</li>
+<li>Relational data</li>
+<li>Need for complex joins</li>
+<li>Transactions</li>
+<li>Clear patterns for scaling</li>
+<li>More established: developers, community, code, tools, etc</li>
+<li>Lookups by index are very fast</li>
+</ul>
+<p>Reasons for <strong>NoSQL</strong>:</p>
+<ul>
+<li>Semi-structured data</li>
+<li>Dynamic or flexible schema</li>
+<li>Non-relational data</li>
+<li>No need for complex joins</li>
+<li>Store many TB (or PB) of data</li>
+<li>Very data intensive workload</li>
+<li>Very high throughput for IOPS</li>
+</ul>
+<p>Sample data well-suited for NoSQL:</p>
+<ul>
+<li>Rapid ingest of clickstream and log data</li>
+<li>Leaderboard or scoring data</li>
+<li>Temporary data, such as a shopping cart</li>
+<li>Frequently accessed (‘hot’) tables</li>
+<li>Metadata/lookup tables</li>
+</ul>
+<h5>Source(s) and further reading: SQL or NoSQL</h5>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=kKjm4ehYiMs">Scaling up to your first 10 million users</a></li>
+<li><a href="https://www.sitepoint.com/sql-vs-nosql-differences/">SQL vs NoSQL differences</a></li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h2>Cache</h2>
+<p align="center">
+  <img src="images/Q6z24La.png?raw=true">
+  <br>
+  <i><a href="http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">Source: Scalable system design patterns</a></i>
+</p>
+<p>Caching improves page load times and can reduce the load on your servers and databases.  In this model, the dispatcher will first lookup if the request has been made before and try to find the previous result to return, in order to save the actual execution.</p>
+<p>Databases often benefit from a uniform distribution of reads and writes across its partitions.  Popular items can skew the distribution, causing bottlenecks.  Putting a cache in front of a database can help absorb uneven loads and spikes in traffic.</p>
+<h3>Client caching</h3>
+<p>Caches can be located on the client side (OS or browser), <a href="#reverse-proxy-web-server">server side</a>, or in a distinct cache layer.</p>
+<h3>CDN caching</h3>
+<p><a href="#content-delivery-network">CDNs</a> are considered a type of cache.</p>
+<h3>Web server caching</h3>
+<p><a href="#reverse-proxy-web-server">Reverse proxies</a> and caches such as <a href="https://www.varnish-cache.org/">Varnish</a> can serve static and dynamic content directly.  Web servers can also cache requests, returning responses without having to contact application servers.</p>
+<h3>Database caching</h3>
+<p>Your database usually includes some level of caching in a default configuration, optimized for a generic use case.  Tweaking these settings for specific usage patterns can further boost performance.</p>
+<h3>Application caching</h3>
+<p>In-memory caches such as Memcached and Redis are key-value stores between your application and your data storage.  Since the data is held in RAM, it is much faster than typical databases where data is stored on disk.  RAM is more limited than disk, so <a href="https://en.wikipedia.org/wiki/Cache_algorithms">cache invalidation</a> algorithms such as <a href="https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)">least recently used (LRU)</a> can help invalidate ‘cold’ entries and keep ‘hot’ data in RAM.</p>
+<p>Redis has the following additional features:</p>
+<ul>
+<li>Persistence option</li>
+<li>Built-in data structures such as sorted sets and lists</li>
+</ul>
+<p>There are multiple levels you can cache that fall into two general categories: <strong>database queries</strong> and <strong>objects</strong>:</p>
+<ul>
+<li>Row level</li>
+<li>Query-level</li>
+<li>Fully-formed serializable objects</li>
+<li>Fully-rendered HTML</li>
+</ul>
+<p>Generally, you should try to avoid file-based caching, as it makes cloning and auto-scaling more difficult.</p>
+<h3>Caching at the database query level</h3>
+<p>Whenever you query the database, hash the query as a key and store the result to the cache.  This approach suffers from expiration issues:</p>
+<ul>
+<li>Hard to delete a cached result with complex queries</li>
+<li>If one piece of data changes such as a table cell, you need to delete all cached queries that might include the changed cell</li>
+</ul>
+<h3>Caching at the object level</h3>
+<p>See your data as an object, similar to what you do with your application code.  Have your application assemble the dataset from the database into a class instance or a data structure(s):</p>
+<ul>
+<li>Remove the object from cache if its underlying data has changed</li>
+<li>Allows for asynchronous processing: workers assemble objects by consuming the latest cached object</li>
+</ul>
+<p>Suggestions of what to cache:</p>
+<ul>
+<li>User sessions</li>
+<li>Fully rendered web pages</li>
+<li>Activity streams</li>
+<li>User graph data</li>
+</ul>
+<h3>When to update the cache</h3>
+<p>Since you can only store a limited amount of data in cache, you’ll need to determine which cache update strategy works best for your use case.</p>
+<h4>Cache-aside</h4>
+<p align="center">
+  <img src="images/ONjORqk.png?raw=true">
+  <br>
+  <i><a href="http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast">Source: From cache to in-memory data grid</a></i>
+</p>
+<p>The application is responsible for reading and writing from storage.  The cache does not interact with storage directly.  The application does the following:</p>
+<ul>
+<li>Look for entry in cache, resulting in a cache miss</li>
+<li>Load entry from the database</li>
+<li>Add entry to cache</li>
+<li>Return entry</li>
+</ul>
+<pre><code class="language-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">get_user</span><span class="hljs-params">(self, user_id)</span>:</span>
+    user = cache.get(<span class="hljs-string">"user.{0}"</span>, user_id)
+    <span class="hljs-keyword">if</span> user <span class="hljs-keyword">is</span> <span class="hljs-keyword">None</span>:
+        user = db.query(<span class="hljs-string">"SELECT * FROM users WHERE user_id = {0}"</span>, user_id)
+        <span class="hljs-keyword">if</span> user <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> <span class="hljs-keyword">None</span>:
+            key = <span class="hljs-string">"user.{0}"</span>.format(user_id)
+            cache.set(key, json.dumps(user))
+    <span class="hljs-keyword">return</span> user
+</code></pre>
+<p><a href="https://memcached.org/">Memcached</a> is generally used in this manner.</p>
+<p>Subsequent reads of data added to cache are fast.  Cache-aside is also referred to as lazy loading.  Only requested data is cached, which avoids filling up the cache with data that isn’t requested.</p>
+<h5>Disadvantage(s): cache-aside</h5>
+<ul>
+<li>Each cache miss results in three trips, which can cause a noticeable delay.</li>
+<li>Data can become stale if it is updated in the database.  This issue is mitigated by setting a time-to-live (TTL) which forces an update of the cache entry, or by using write-through.</li>
+<li>When a node fails, it is replaced by a new, empty node, increasing latency.</li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h4>Write-through</h4>
+<p align="center">
+  <img src="images/0vBc0hN.png?raw=true">
+  <br>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
+</p>
+<p>The application uses the cache as the main data store, reading and writing data to it, while the cache is responsible for reading and writing to the database:</p>
+<ul>
+<li>Application adds/updates entry in cache</li>
+<li>Cache synchronously writes entry to data store</li>
+<li>Return</li>
+</ul>
+<p>Application code:</p>
+<pre><code class="language-python">set_user(<span class="hljs-number">12345</span>, {<span class="hljs-string">"foo"</span>:<span class="hljs-string">"bar"</span>})
+</code></pre>
+<p>Cache code:</p>
+<pre><code class="language-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">set_user</span><span class="hljs-params">(user_id, values)</span>:</span>
+    user = db.query(<span class="hljs-string">"UPDATE Users WHERE id = {0}"</span>, user_id, values)
+    cache.set(user_id, user)
+</code></pre>
+<p>Write-through is a slow overall operation due to the write operation, but subsequent reads of just written data are fast.  Users are generally more tolerant of latency when updating data than reading data.  Data in the cache is not stale.</p>
+<h5>Disadvantage(s): write through</h5>
+<ul>
+<li>When a new node is created due to failure or scaling, the new node will not cache entries until the entry is updated in the database.  Cache-aside in conjunction with write through can mitigate this issue.</li>
+<li>Most data written might never be read, which can be minimized with a TTL.</li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h4>Write-behind (write-back)</h4>
+<p align="center">
+  <img src="images/rgSrvjG.png?raw=true">
+  <br>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
+</p>
+<p>In write-behind, the application does the following:</p>
+<ul>
+<li>Add/update entry in cache</li>
+<li>Asynchronously write entry to the data store, improving write performance</li>
+</ul>
+<h5>Disadvantage(s): write-behind</h5>
+<ul>
+<li>There could be data loss if the cache goes down prior to its contents hitting the data store.</li>
+<li>It is more complex to implement write-behind than it is to implement cache-aside or write-through.</li>
+</ul>
+<h4>Refresh-ahead</h4>
+<p align="center">
+  <img src="images/kxtjqgE.png?raw=true">
+  <br>
+  <i><a href="http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast">Source: From cache to in-memory data grid</a></i>
+</p>
+<p>You can configure the cache to automatically refresh any recently accessed cache entry prior to its expiration.</p>
+<p>Refresh-ahead can result in reduced latency vs read-through if the cache can accurately predict which items are likely to be needed in the future.</p>
+<h5>Disadvantage(s): refresh-ahead</h5>
+<ul>
+<li>Not accurately predicting which items are likely to be needed in the future can result in reduced performance than without refresh-ahead.</li>
+</ul>
+<h3>Disadvantage(s): cache</h3>
+<ul>
+<li>Need to maintain consistency between caches and the source of truth such as the database through <a href="https://en.wikipedia.org/wiki/Cache_algorithms">cache invalidation</a>.</li>
+<li>Cache invalidation is a difficult problem, there is additional complexity associated with when to update the cache.</li>
+<li>Need to make application changes such as adding Redis or memcached.</li>
+</ul>
+<h3>Source(s) and further reading</h3>
+<ul>
+<li><a href="http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast">From cache to in-memory data grid</a></li>
+<li><a href="http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">Scalable system design patterns</a></li>
+<li><a href="http://lethain.com/introduction-to-architecting-systems-for-scale/">Introduction to architecting systems for scale</a></li>
+<li><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Scalability, availability, stability, patterns</a></li>
+<li><a href="http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache">Scalability</a></li>
+<li><a href="http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/Strategies.html">AWS ElastiCache strategies</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cache_(computing)">Wikipedia</a></li>
+</ul>
+<h2>Asynchronism</h2>
+<p align="center">
+  <img src="images/54GYsSx.png?raw=true">
+  <br>
+  <i><a href="http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer">Source: Intro to architecting systems for scale</a></i>
+</p>
+<p>Asynchronous workflows help reduce request times for expensive operations that would otherwise be performed in-line.  They can also help by doing time-consuming work in advance, such as periodic aggregation of data.</p>
+<h3>Message queues</h3>
+<p>Message queues receive, hold, and deliver messages.  If an operation is too slow to perform inline, you can use a message queue with the following workflow:</p>
+<ul>
+<li>An application publishes a job to the queue, then notifies the user of job status</li>
+<li>A worker picks up the job from the queue, processes it, then signals the job is complete</li>
+</ul>
+<p>The user is not blocked and the job is processed in the background.  During this time, the client might optionally do a small amount of processing to make it seem like the task has completed.  For example, if posting a tweet, the tweet could be instantly posted to your timeline, but it could take some time before your tweet is actually delivered to all of your followers.</p>
+<p><strong><a href="https://redis.io/">Redis</a></strong> is useful as a simple message broker but messages can be lost.</p>
+<p><strong><a href="https://www.rabbitmq.com/">RabbitMQ</a></strong> is popular but requires you to adapt to the ‘AMQP’ protocol and manage your own nodes.</p>
+<p><strong><a href="https://aws.amazon.com/sqs/">Amazon SQS</a></strong> is hosted but can have high latency and has the possibility of messages being delivered twice.</p>
+<div style="page-break-after: always;"></div>
+<h3>Task queues</h3>
+<p>Tasks queues receive tasks and their related data, runs them, then delivers their results.  They can support scheduling and can be used to run computationally-intensive jobs in the background.</p>
+<p><strong><a href="https://docs.celeryproject.org/en/stable/">Celery</a></strong> has support for scheduling and primarily has python support.</p>
+<h3>Back pressure</h3>
+<p>If queues start to grow significantly, the queue size can become larger than memory, resulting in cache misses, disk reads, and even slower performance.  <a href="http://mechanical-sympathy.blogspot.com/2012/05/apply-back-pressure-when-overloaded.html">Back pressure</a> can help by limiting the queue size, thereby maintaining a high throughput rate and good response times for jobs already in the queue.  Once the queue fills up, clients get a server busy or HTTP 503 status code to try again later.  Clients can retry the request at a later time, perhaps with <a href="https://en.wikipedia.org/wiki/Exponential_backoff">exponential backoff</a>.</p>
+<h3>Disadvantage(s): asynchronism</h3>
+<ul>
+<li>Use cases such as inexpensive calculations and realtime workflows might be better suited for synchronous operations, as introducing queues can add delays and complexity.</li>
+</ul>
+<h3>Source(s) and further reading</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=1KRYH75wgy4">It’s all a numbers game</a></li>
+<li><a href="http://mechanical-sympathy.blogspot.com/2012/05/apply-back-pressure-when-overloaded.html">Applying back pressure when overloaded</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Little%27s_law">Little’s law</a></li>
+<li><a href="https://www.quora.com/What-is-the-difference-between-a-message-queue-and-a-task-queue-Why-would-a-task-queue-require-a-message-broker-like-RabbitMQ-Redis-Celery-or-IronMQ-to-function">What is the difference between a message queue and a task queue?</a></li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h2>Communication</h2>
+<p align="center">
+  <img src="images/5KeocQs.png?raw=true">
+  <br>
+  <i><a href="http://www.escotal.com/osilayer.html">Source: OSI 7 layer model</a></i>
+</p>
+<h3>Hypertext transfer protocol (HTTP)</h3>
+<p>HTTP is a method for encoding and transporting data between a client and a server.  It is a request/response protocol: clients issue requests and servers issue responses with relevant content and completion status info about the request.  HTTP is self-contained, allowing requests and responses to flow through many intermediate routers and servers that perform load balancing, caching, encryption, and compression.</p>
+<p>A basic HTTP request consists of a verb (method) and a resource (endpoint).  Below are common HTTP verbs:</p>
+<table>
+<thead>
+<tr>
+<th>Verb</th>
+<th>Description</th>
+<th>Idempotent*</th>
+<th>Safe</th>
+<th>Cacheable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td>Reads a resource</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>Creates a resource or trigger a process that handles data</td>
+<td>No</td>
+<td>No</td>
+<td>Yes if response contains freshness info</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>Creates or replace a resource</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>Partially updates a resource</td>
+<td>No</td>
+<td>No</td>
+<td>Yes if response contains freshness info</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>Deletes a resource</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p>*Can be called many times without different outcomes.</p>
+<p>HTTP is an application layer protocol relying on lower-level protocols such as <strong>TCP</strong> and <strong>UDP</strong>.</p>
+<h4>Source(s) and further reading: HTTP</h4>
+<ul>
+<li><a href="https://www.nginx.com/resources/glossary/http/">What is HTTP?</a></li>
+<li><a href="https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol">Difference between HTTP and TCP</a></li>
+<li><a href="https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1">Difference between PUT and PATCH</a></li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h3>Transmission control protocol (TCP)</h3>
+<p align="center">
+  <img src="images/JdAsdvG.png?raw=true">
+  <br>
+  <i><a href="http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/">Source: How to make a multiplayer game</a></i>
+</p>
+<p>TCP is a connection-oriented protocol over an <a href="https://en.wikipedia.org/wiki/Internet_Protocol">IP network</a>.  Connection is established and terminated using a <a href="https://en.wikipedia.org/wiki/Handshaking">handshake</a>.  All packets sent are guaranteed to reach the destination in the original order and without corruption through:</p>
+<ul>
+<li>Sequence numbers and <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Checksum_computation">checksum fields</a> for each packet</li>
+<li><a href="https://en.wikipedia.org/wiki/Acknowledgement_(data_networks)">Acknowledgement</a> packets and automatic retransmission</li>
+</ul>
+<p>If the sender does not receive a correct response, it will resend the packets.  If there are multiple timeouts, the connection is dropped.  TCP also implements <a href="https://en.wikipedia.org/wiki/Flow_control_(data)">flow control</a> and <a href="https://en.wikipedia.org/wiki/Network_congestion#Congestion_control">congestion control</a>.  These guarantees cause delays and generally result in less efficient transmission than UDP.</p>
+<p>To ensure high throughput, web servers can keep a large number of TCP connections open, resulting in high memory usage.  It can be expensive to have a large number of open connections between web server threads and say, a <a href="https://memcached.org/">memcached</a> server.  <a href="https://en.wikipedia.org/wiki/Connection_pool">Connection pooling</a> can help in addition to switching to UDP where applicable.</p>
+<p>TCP is useful for applications that require high reliability but are less time critical.  Some examples include web servers, database info, SMTP, FTP, and SSH.</p>
+<p>Use TCP over UDP when:</p>
+<ul>
+<li>You need all of the data to arrive intact</li>
+<li>You want to automatically make a best estimate use of the network throughput</li>
+</ul>
+<h3>User datagram protocol (UDP)</h3>
+<p align="center">
+  <img src="images/yzDrJtA.png?raw=true">
+  <br>
+  <i><a href="http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/">Source: How to make a multiplayer game</a></i>
+</p>
+<p>UDP is connectionless.  Datagrams (analogous to packets) are guaranteed only at the datagram level.  Datagrams might reach their destination out of order or not at all.  UDP does not support congestion control.  Without the guarantees that TCP support, UDP is generally more efficient.</p>
+<p>UDP can broadcast, sending datagrams to all devices on the subnet.  This is useful with <a href="https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol">DHCP</a> because the client has not yet received an IP address, thus preventing a way for TCP to stream without the IP address.</p>
+<p>UDP is less reliable but works well in real time use cases such as VoIP, video chat, streaming, and realtime multiplayer games.</p>
+<p>Use UDP over TCP when:</p>
+<ul>
+<li>You need the lowest latency</li>
+<li>Late data is worse than loss of data</li>
+<li>You want to implement your own error correction</li>
+</ul>
+<h4>Source(s) and further reading: TCP and UDP</h4>
+<ul>
+<li><a href="http://gafferongames.com/networking-for-game-programmers/udp-vs-tcp/">Networking for game programming</a></li>
+<li><a href="http://www.cyberciti.biz/faq/key-differences-between-tcp-and-udp-protocols/">Key differences between TCP and UDP protocols</a></li>
+<li><a href="http://stackoverflow.com/questions/5970383/difference-between-tcp-and-udp">Difference between TCP and UDP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol">Transmission control protocol</a></li>
+<li><a href="https://en.wikipedia.org/wiki/User_Datagram_Protocol">User datagram protocol</a></li>
+<li><a href="http://www.cs.bu.edu/~jappavoo/jappavoo.github.com/451/papers/memcache-fb.pdf">Scaling memcache at Facebook</a></li>
+</ul>
+<h3>Remote procedure call (RPC)</h3>
+<p align="center">
+  <img src="images/iF4Mkb5.png?raw=true">
+  <br>
+  <i><a href="http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview">Source: Crack the system design questions</a></i>
+</p>
+<p>In an RPC, a client causes a procedure to execute on a different address space, usually a remote server.  The procedure is coded as if it were a local procedure call, abstracting away the details of how to communicate with the server from the client program.  Remote calls are usually slower and less reliable than local calls so it is helpful to distinguish RPC calls from local calls.  Popular RPC frameworks include <a href="https://developers.google.com/protocol-buffers/">Protobuf</a>, <a href="https://thrift.apache.org/">Thrift</a>, and <a href="https://avro.apache.org/docs/current/">Avro</a>.</p>
+<p>RPC is a request-response protocol:</p>
+<ul>
+<li><strong>Client program</strong> - Calls the client stub procedure.  The parameters are pushed onto the stack like a local procedure call.</li>
+<li><strong>Client stub procedure</strong> - Marshals (packs) procedure id and arguments into a request message.</li>
+<li><strong>Client communication module</strong> - OS sends the message from the client to the server.</li>
+<li><strong>Server communication module</strong> - OS passes the incoming packets to the server stub procedure.</li>
+<li><strong>Server stub procedure</strong> -  Unmarshalls the results, calls the server procedure matching the procedure id and passes the given arguments.</li>
+<li>The server response repeats the steps above in reverse order.</li>
+</ul>
+<p>Sample RPC calls:</p>
+<pre><code>GET /someoperation?data=anId
+
+POST /anotheroperation
+{
+  "data":"anId";
+  "anotherdata": "another value"
+}
+</code></pre>
+<p>RPC is focused on exposing behaviors.  RPCs are often used for performance reasons with internal communications, as you can hand-craft native calls to better fit your use cases.</p>
+<p>Choose a native library (aka SDK) when:</p>
+<ul>
+<li>You know your target platform.</li>
+<li>You want to control how your “logic” is accessed.</li>
+<li>You want to control how error control happens off your library.</li>
+<li>Performance and end user experience is your primary concern.</li>
+</ul>
+<p>HTTP APIs following <strong>REST</strong> tend to be used more often for public APIs.</p>
+<h4>Disadvantage(s): RPC</h4>
+<ul>
+<li>RPC clients become tightly coupled to the service implementation.</li>
+<li>A new API must be defined for every new operation or use case.</li>
+<li>It can be difficult to debug RPC.</li>
+<li>You might not be able to leverage existing technologies out of the box.  For example, it might require additional effort to ensure <a href="http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/">RPC calls are properly cached</a> on caching servers such as <a href="http://www.squid-cache.org/">Squid</a>.</li>
+</ul>
+<h3>Representational state transfer (REST)</h3>
+<p>REST is an architectural style enforcing a client/server model where the client acts on a set of resources managed by the server.  The server provides a representation of resources and actions that can either manipulate or get a new representation of resources.  All communication must be stateless and cacheable.</p>
+<p>There are four qualities of a RESTful interface:</p>
+<ul>
+<li><strong>Identify resources (URI in HTTP)</strong> - use the same URI regardless of any operation.</li>
+<li><strong>Change with representations (Verbs in HTTP)</strong> - use verbs, headers, and body.</li>
+<li><strong>Self-descriptive error message (status response in HTTP)</strong> - Use status codes, don’t reinvent the wheel.</li>
+<li><strong><a href="http://restcookbook.com/Basics/hateoas/">HATEOAS</a> (HTML interface for HTTP)</strong> - your web service should be fully accessible in a browser.</li>
+</ul>
+<p>Sample REST calls:</p>
+<pre><code>GET /someresources/anId
+
+PUT /someresources/anId
+{"anotherdata": "another value"}
+</code></pre>
+<p>REST is focused on exposing data.  It minimizes the coupling between client/server and is often used for public HTTP APIs.  REST uses a more generic and uniform method of exposing resources through URIs, <a href="https://github.com/for-GET/know-your-http-well/blob/master/headers.md">representation through headers</a>, and actions through verbs such as GET, POST, PUT, DELETE, and PATCH.  Being stateless, REST is great for horizontal scaling and partitioning.</p>
+<h4>Disadvantage(s): REST</h4>
+<ul>
+<li>With REST being focused on exposing data, it might not be a good fit if resources are not naturally organized or accessed in a simple hierarchy.  For example, returning all updated records from the past hour matching a particular set of events is not easily expressed as a path.  With REST, it is likely to be implemented with a combination of URI path, query parameters, and possibly the request body.</li>
+<li>REST typically relies on a few verbs (GET, POST, PUT, DELETE, and PATCH) which sometimes doesn’t fit your use case.  For example, moving expired documents to the archive folder might not cleanly fit within these verbs.</li>
+<li>Fetching complicated resources with nested hierarchies requires multiple round trips between the client and server to render single views, e.g. fetching content of a blog entry and the comments on that entry. For mobile applications operating in variable network conditions, these multiple roundtrips are highly undesirable.</li>
+<li>Over time, more fields might be added to an API response and older clients will receive all new data fields, even those that they do not need, as a result, it bloats the payload size and leads to larger latencies.</li>
+</ul>
+<h3>RPC and REST calls comparison</h3>
+<table>
+<thead>
+<tr>
+<th>Operation</th>
+<th>RPC</th>
+<th>REST</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Signup</td>
+<td><strong>POST</strong> /signup</td>
+<td><strong>POST</strong> /persons</td>
+</tr>
+<tr>
+<td>Resign</td>
+<td><strong>POST</strong> /resign<br>{<br>“personid”: “1234”<br>}</td>
+<td><strong>DELETE</strong> /persons/1234</td>
+</tr>
+<tr>
+<td>Read a person</td>
+<td><strong>GET</strong> /readPerson?personid=1234</td>
+<td><strong>GET</strong> /persons/1234</td>
+</tr>
+<tr>
+<td>Read a person’s items list</td>
+<td><strong>GET</strong> /readUsersItemsList?personid=1234</td>
+<td><strong>GET</strong> /persons/1234/items</td>
+</tr>
+<tr>
+<td>Add an item to a person’s items</td>
+<td><strong>POST</strong> /addItemToUsersItemsList<br>{<br>“personid”: “1234”;<br>“itemid”: “456”<br>}</td>
+<td><strong>POST</strong> /persons/1234/items<br>{<br>“itemid”: “456”<br>}</td>
+</tr>
+<tr>
+<td>Update an item</td>
+<td><strong>POST</strong> /modifyItem<br>{<br>“itemid”: “456”;<br>“key”: “value”<br>}</td>
+<td><strong>PUT</strong> /items/456<br>{<br>“key”: “value”<br>}</td>
+</tr>
+<tr>
+<td>Delete an item</td>
+<td><strong>POST</strong> /removeItem<br>{<br>“itemid”: “456”<br>}</td>
+<td><strong>DELETE</strong> /items/456</td>
+</tr>
+</tbody>
+</table>
+<p align="center">
+  <i><a href="https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/">Source: Do you really know why you prefer REST over RPC</a></i>
+</p>
+<h4>Source(s) and further reading: REST and RPC</h4>
+<ul>
+<li><a href="https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/">Do you really know why you prefer REST over RPC</a></li>
+<li><a href="http://programmers.stackexchange.com/a/181186">When are RPC-ish approaches more appropriate than REST?</a></li>
+<li><a href="http://stackoverflow.com/questions/15056878/rest-vs-json-rpc">REST vs JSON-RPC</a></li>
+<li><a href="http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/">Debunking the myths of RPC and REST</a></li>
+<li><a href="https://www.quora.com/What-are-the-drawbacks-of-using-RESTful-APIs">What are the drawbacks of using REST</a></li>
+<li><a href="http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview">Crack the system design questions</a></li>
+<li><a href="https://code.facebook.com/posts/1468950976659943/">Thrift</a></li>
+<li><a href="http://arstechnica.com/civis/viewtopic.php?t=1190508">Why REST for internal use and not RPC</a></li>
+</ul>
+<h2>Security</h2>
+<p>This section could use some updates.</p>
+<p>Security is a broad topic.  Unless you have considerable experience, a security background, or are applying for a position that requires knowledge of security, you probably won’t need to know more than the basics:</p>
+<ul>
+<li>Encrypt in transit and at rest.</li>
+<li>Sanitize all user inputs or any input parameters exposed to user to prevent <a href="https://en.wikipedia.org/wiki/Cross-site_scripting">XSS</a> and <a href="https://en.wikipedia.org/wiki/SQL_injection">SQL injection</a>.</li>
+<li>Use parameterized queries to prevent SQL injection.</li>
+<li>Use the principle of <a href="https://en.wikipedia.org/wiki/Principle_of_least_privilege">least privilege</a>.</li>
+</ul>
+<h3>Source(s) and further reading</h3>
+<ul>
+<li><a href="https://github.com/shieldfy/API-Security-Checklist">API security checklist</a></li>
+<li><a href="https://github.com/FallibleInc/security-guide-for-developers">Security guide for developers</a></li>
+<li><a href="https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet">OWASP top ten</a></li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h2>Appendix</h2>
+<p>For example, you might need to determine how long it will take to generate 100 image thumbnails from disk or how much memory a data structure will take.  The <strong>Powers of two table</strong> and <strong>Latency numbers every programmer should know</strong> are handy references.</p>
+<h3>Powers of two table</h3>
+<pre><code>Power           Exact Value         Approx Value        Bytes
+---------------------------------------------------------------
+7                             128
+8                             256
+10                           1024   1 thousand           1 KB
+16                         65,536                       64 KB
+20                      1,048,576   1 million            1 MB
+30                  1,073,741,824   1 billion            1 GB
+32                  4,294,967,296                        4 GB
+40              1,099,511,627,776   1 trillion           1 TB
+</code></pre>
+<h4>Source(s) and further reading</h4>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Power_of_two">Powers of two</a></li>
+</ul>
+<h3>Latency numbers every programmer should know</h3>
+<pre><code>Latency Comparison Numbers
+--------------------------
+L1 cache reference                           0.5 ns
+Branch mispredict                            5   ns
+L2 cache reference                           7   ns                      14x L1 cache
+Mutex lock/unlock                           25   ns
+Main memory reference                      100   ns                      20x L2 cache, 200x L1 cache
+Compress 1K bytes with Zippy            10,000   ns       10 us
+Send 1 KB bytes over 1 Gbps network     10,000   ns       10 us
+Read 4 KB randomly from SSD*           150,000   ns      150 us          ~1GB/sec SSD
+Read 1 MB sequentially from memory     250,000   ns      250 us
+Round trip within same datacenter      500,000   ns      500 us
+Read 1 MB sequentially from SSD*     1,000,000   ns    1,000 us    1 ms  ~1GB/sec SSD, 4X memory
+HDD seek                            10,000,000   ns   10,000 us   10 ms  20x datacenter roundtrip
+Read 1 MB sequentially from 1 Gbps  10,000,000   ns   10,000 us   10 ms  40x memory, 10X SSD
+Read 1 MB sequentially from HDD     30,000,000   ns   30,000 us   30 ms 120x memory, 30X SSD
+Send packet CA-&gt;Netherlands-&gt;CA    150,000,000   ns  150,000 us  150 ms
+
+Notes
+-----
+1 ns = 10^-9 seconds
+1 us = 10^-6 seconds = 1,000 ns
+1 ms = 10^-3 seconds = 1,000 us = 1,000,000 ns
+</code></pre>
+<p>Handy metrics based on numbers above:</p>
+<ul>
+<li>Read sequentially from HDD at 30 MB/s</li>
+<li>Read sequentially from 1 Gbps Ethernet at 100 MB/s</li>
+<li>Read sequentially from SSD at 1 GB/s</li>
+<li>Read sequentially from main memory at 4 GB/s</li>
+<li>6-7 world-wide round trips per second</li>
+<li>2,000 round trips per second within a data center</li>
+</ul>
+<h4>Latency numbers visualized</h4>
+<p><img src="https://camo.githubusercontent.com/77f72259e1eb58596b564d1ad823af1853bc60a3/687474703a2f2f692e696d6775722e636f6d2f6b307431652e706e67" alt=""></p>
+<h4>Source(s) and further reading</h4>
+<ul>
+<li><a href="https://gist.github.com/jboner/2841832">Latency numbers every programmer should know - 1</a></li>
+<li><a href="https://gist.github.com/hellerbarde/2843375">Latency numbers every programmer should know - 2</a></li>
+<li><a href="http://www.cs.cornell.edu/projects/ladis2009/talks/dean-keynote-ladis2009.pdf">Designs, lessons, and advice from building large distributed systems</a></li>
+<li><a href="https://static.googleusercontent.com/media/research.google.com/en//people/jeff/stanford-295-talk.pdf">Software Engineering Advice from Building Large-Scale Distributed Systems</a></li>
+</ul>
+<h3>Additional system design</h3>
+<blockquote>
+<p>Common system design questions, with links to resources on how to solve each.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Reference(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Design a file sync service like Dropbox</td>
+<td><a href="https://www.youtube.com/watch?v=PE4gwstWhmc">youtube.com</a></td>
+</tr>
+<tr>
+<td>Design a search engine like Google</td>
+<td><a href="http://queue.acm.org/detail.cfm?id=988407">queue.acm.org</a><br><a href="http://programmers.stackexchange.com/questions/38324/interview-question-how-would-you-implement-google-search">stackexchange.com</a><br><a href="http://www.ardendertat.com/2012/01/11/implementing-search-engines/">ardendertat.com</a><br><a href="http://infolab.stanford.edu/~backrub/google.html">stanford.edu</a></td>
+</tr>
+<tr>
+<td>Design a scalable web crawler like Google</td>
+<td><a href="https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch">quora.com</a></td>
+</tr>
+<tr>
+<td>Design Google docs</td>
+<td><a href="https://code.google.com/p/google-mobwrite/">code.google.com</a><br><a href="https://neil.fraser.name/writing/sync/">neil.fraser.name</a></td>
+</tr>
+<tr>
+<td>Design a key-value store like Redis</td>
+<td><a href="http://www.slideshare.net/dvirsky/introduction-to-redis">slideshare.net</a></td>
+</tr>
+<tr>
+<td>Design a cache system like Memcached</td>
+<td><a href="http://www.slideshare.net/oemebamo/introduction-to-memcached">slideshare.net</a></td>
+</tr>
+<tr>
+<td>Design a recommendation system like Amazon’s</td>
+<td><a href="https://web.archive.org/web/20170406065247/http://tech.hulu.com/blog/2011/09/19/recommendation-system.html">hulu.com</a><br><a href="http://ijcai13.org/files/tutorial_slides/td3.pdf">ijcai13.org</a></td>
+</tr>
+<tr>
+<td>Design a tinyurl system like Bitly</td>
+<td><a href="http://n00tc0d3r.blogspot.com/">n00tc0d3r.blogspot.com</a></td>
+</tr>
+<tr>
+<td>Design a chat app like WhatsApp</td>
+<td><a href="http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html">highscalability.com</a></td>
+</tr>
+<tr>
+<td>Design a picture sharing system like Instagram</td>
+<td><a href="http://highscalability.com/flickr-architecture">highscalability.com</a><br><a href="http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html">highscalability.com</a></td>
+</tr>
+<tr>
+<td>Design the Facebook news feed function</td>
+<td><a href="http://www.quora.com/What-are-best-practices-for-building-something-like-a-News-Feed">quora.com</a><br><a href="http://www.quora.com/Activity-Streams/What-are-the-scaling-issues-to-keep-in-mind-while-developing-a-social-network-feed">quora.com</a><br><a href="http://www.slideshare.net/danmckinley/etsy-activity-feeds-architecture">slideshare.net</a></td>
+</tr>
+<tr>
+<td>Design the Facebook timeline function</td>
+<td><a href="https://www.facebook.com/note.php?note_id=10150468255628920">facebook.com</a><br><a href="http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html">highscalability.com</a></td>
+</tr>
+<tr>
+<td>Design the Facebook chat function</td>
+<td><a href="http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf">erlang-factory.com</a><br><a href="https://www.facebook.com/note.php?note_id=14218138919&amp;id=9445547199&amp;index=0">facebook.com</a></td>
+</tr>
+<tr>
+<td>Design a graph search function like Facebook’s</td>
+<td><a href="https://www.facebook.com/notes/facebook-engineering/under-the-hood-building-out-the-infrastructure-for-graph-search/10151347573598920">facebook.com</a><br><a href="https://www.facebook.com/notes/facebook-engineering/under-the-hood-indexing-and-ranking-in-graph-search/10151361720763920">facebook.com</a><br><a href="https://www.facebook.com/notes/facebook-engineering/under-the-hood-the-natural-language-interface-of-graph-search/10151432733048920">facebook.com</a></td>
+</tr>
+<tr>
+<td>Design a content delivery network like CloudFlare</td>
+<td><a href="https://figshare.com/articles/Globally_distributed_content_delivery/6605972">figshare.com</a></td>
+</tr>
+<tr>
+<td>Design a trending topic system like Twitter’s</td>
+<td><a href="http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/">michael-noll.com</a><br><a href="http://snikolov.wordpress.com/2012/11/14/early-detection-of-twitter-trends/">snikolov .wordpress.com</a></td>
+</tr>
+<tr>
+<td>Design a random ID generation system</td>
+<td><a href="https://blog.twitter.com/2010/announcing-snowflake">blog.twitter.com</a><br><a href="https://github.com/twitter/snowflake/">github.com</a></td>
+</tr>
+<tr>
+<td>Return the top k requests during a time interval</td>
+<td><a href="https://www.cs.ucsb.edu/sites/cs.ucsb.edu/files/docs/reports/2005-23.pdf">cs.ucsb.edu</a><br><a href="http://davis.wpi.edu/xmdv/docs/EDBT11-diyang.pdf">wpi.edu</a></td>
+</tr>
+<tr>
+<td>Design a system that serves data from multiple data centers</td>
+<td><a href="http://highscalability.com/blog/2009/8/24/how-google-serves-data-from-multiple-datacenters.html">highscalability.com</a></td>
+</tr>
+<tr>
+<td>Design an online multiplayer card game</td>
+<td><a href="https://web.archive.org/web/20180929181117/http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html">indieflashblog.com</a><br><a href="http://buildnewgames.com/real-time-multiplayer/">buildnewgames.com</a></td>
+</tr>
+<tr>
+<td>Design a garbage collection system</td>
+<td><a href="http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/">stuffwithstuff.com</a><br><a href="http://courses.cs.washington.edu/courses/csep521/07wi/prj/rick.pdf">washington.edu</a></td>
+</tr>
+<tr>
+<td>Design an API rate limiter</td>
+<td><a href="https://stripe.com/blog/rate-limiters">https://stripe.com/blog/</a></td>
+</tr>
+<tr>
+<td>Design a Stock Exchange (like NASDAQ or Binance)</td>
+<td><a href="https://youtu.be/b1e4t2k2KJY">Jane Street</a><br><a href="https://around25.com/blog/building-a-trading-engine-for-a-crypto-exchange/">Golang Implementation</a><br><a href="http://bhomnick.net/building-a-simple-limit-order-in-go/">Go Implemenation</a></td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+<h3>Real world architectures</h3>
+<blockquote>
+<p>Articles on how real world systems are designed.</p>
+</blockquote>
+<p align="center">
+  <img src="images/TcUo2fw.png?raw=true">
+  <br>
+  <i><a href="https://www.infoq.com/presentations/Twitter-Timeline-Scalability">Source: Twitter timelines at scale</a></i>
+</p>
+<p><strong>Don’t focus on nitty gritty details for the following articles, instead:</strong></p>
+<ul>
+<li>Identify shared principles, common technologies, and patterns within these articles</li>
+<li>Study what problems are solved by each component, where it works, where it doesn’t</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>System</th>
+<th>Reference(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data processing</td>
+<td><strong>MapReduce</strong> - Distributed data processing from Google</td>
+<td><a href="http://static.googleusercontent.com/media/research.google.com/zh-CN/us/archive/mapreduce-osdi04.pdf">research.google.com</a></td>
+</tr>
+<tr>
+<td>Data processing</td>
+<td><strong>Spark</strong> - Distributed data processing from Databricks</td>
+<td><a href="http://www.slideshare.net/AGrishchenko/apache-spark-architecture">slideshare.net</a></td>
+</tr>
+<tr>
+<td>Data processing</td>
+<td><strong>Storm</strong> - Distributed data processing from Twitter</td>
+<td><a href="http://www.slideshare.net/previa/storm-16094009">slideshare.net</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Data store</td>
+<td><strong>Bigtable</strong> - Distributed column-oriented database from Google</td>
+<td><a href="http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf">harvard.edu</a></td>
+</tr>
+<tr>
+<td>Data store</td>
+<td><strong>HBase</strong> - Open source implementation of Bigtable</td>
+<td><a href="http://www.slideshare.net/alexbaranau/intro-to-hbase">slideshare.net</a></td>
+</tr>
+<tr>
+<td>Data store</td>
+<td><strong>Cassandra</strong> - Distributed column-oriented database from Facebook</td>
+<td><a href="http://www.slideshare.net/planetcassandra/cassandra-introduction-features-30103666">slideshare.net</a></td>
+</tr>
+<tr>
+<td>Data store</td>
+<td><strong>DynamoDB</strong> - Document-oriented database from Amazon</td>
+<td><a href="http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf">harvard.edu</a></td>
+</tr>
+<tr>
+<td>Data store</td>
+<td><strong>MongoDB</strong> - Document-oriented database</td>
+<td><a href="http://www.slideshare.net/mdirolf/introduction-to-mongodb">slideshare.net</a></td>
+</tr>
+<tr>
+<td>Data store</td>
+<td><strong>Spanner</strong> - Globally-distributed database from Google</td>
+<td><a href="http://research.google.com/archive/spanner-osdi2012.pdf">research.google.com</a></td>
+</tr>
+<tr>
+<td>Data store</td>
+<td><strong>Memcached</strong> - Distributed memory caching system</td>
+<td><a href="http://www.slideshare.net/oemebamo/introduction-to-memcached">slideshare.net</a></td>
+</tr>
+<tr>
+<td>Data store</td>
+<td><strong>Redis</strong> - Distributed memory caching system with persistence and value types</td>
+<td><a href="http://www.slideshare.net/dvirsky/introduction-to-redis">slideshare.net</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>File system</td>
+<td><strong>Google File System (GFS)</strong> - Distributed file system</td>
+<td><a href="http://static.googleusercontent.com/media/research.google.com/zh-CN/us/archive/gfs-sosp2003.pdf">research.google.com</a></td>
+</tr>
+<tr>
+<td>File system</td>
+<td><strong>Hadoop File System (HDFS)</strong> - Open source implementation of GFS</td>
+<td><a href="http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html">apache.org</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Misc</td>
+<td><strong>Chubby</strong> - Lock service for loosely-coupled distributed systems from Google</td>
+<td><a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/archive/chubby-osdi06.pdf">research.google.com</a></td>
+</tr>
+<tr>
+<td>Misc</td>
+<td><strong>Dapper</strong> - Distributed systems tracing infrastructure</td>
+<td><a href="http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36356.pdf">research.google.com</a></td>
+</tr>
+<tr>
+<td>Misc</td>
+<td><strong>Kafka</strong> - Pub/sub message queue from LinkedIn</td>
+<td><a href="http://www.slideshare.net/mumrah/kafka-talk-tri-hug">slideshare.net</a></td>
+</tr>
+<tr>
+<td>Misc</td>
+<td><strong>Zookeeper</strong> - Centralized infrastructure and services enabling synchronization</td>
+<td><a href="http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper">slideshare.net</a></td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+<h3>Company architectures</h3>
+<table>
+<thead>
+<tr>
+<th>Company</th>
+<th>Reference(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Amazon</td>
+<td><a href="http://highscalability.com/amazon-architecture">Amazon architecture</a></td>
+</tr>
+<tr>
+<td>Cinchcast</td>
+<td><a href="http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html">Producing 1,500 hours of audio every day</a></td>
+</tr>
+<tr>
+<td>DataSift</td>
+<td><a href="http://highscalability.com/blog/2011/11/29/datasift-architecture-realtime-datamining-at-120000-tweets-p.html">Realtime datamining At 120,000 tweets per second</a></td>
+</tr>
+<tr>
+<td>Dropbox</td>
+<td><a href="https://www.youtube.com/watch?v=PE4gwstWhmc">How we’ve scaled Dropbox</a></td>
+</tr>
+<tr>
+<td>ESPN</td>
+<td><a href="http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html">Operating At 100,000 duh nuh nuhs per second</a></td>
+</tr>
+<tr>
+<td>Google</td>
+<td><a href="http://highscalability.com/google-architecture">Google architecture</a></td>
+</tr>
+<tr>
+<td>Instagram</td>
+<td><a href="http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html">14 million users, terabytes of photos</a><br><a href="http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances">What powers Instagram</a></td>
+</tr>
+<tr>
+<td>Justin.tv</td>
+<td><a href="http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html">Justin.Tv’s live video broadcasting architecture</a></td>
+</tr>
+<tr>
+<td>Facebook</td>
+<td><a href="https://cs.uwaterloo.ca/~brecht/courses/854-Emerging-2014/readings/key-value/fb-memcached-nsdi-2013.pdf">Scaling memcached at Facebook</a><br><a href="https://cs.uwaterloo.ca/~brecht/courses/854-Emerging-2014/readings/data-store/tao-facebook-distributed-datastore-atc-2013.pdf">TAO: Facebook’s distributed data store for the social graph</a><br><a href="https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Beaver.pdf">Facebook’s photo storage</a><br><a href="http://highscalability.com/blog/2016/6/27/how-facebook-live-streams-to-800000-simultaneous-viewers.html">How Facebook Live Streams To 800,000 Simultaneous Viewers</a></td>
+</tr>
+<tr>
+<td>Flickr</td>
+<td><a href="http://highscalability.com/flickr-architecture">Flickr architecture</a></td>
+</tr>
+<tr>
+<td>Mailbox</td>
+<td><a href="http://highscalability.com/blog/2013/6/18/scaling-mailbox-from-0-to-one-million-users-in-6-weeks-and-1.html">From 0 to one million users in 6 weeks</a></td>
+</tr>
+<tr>
+<td>Netflix</td>
+<td><a href="http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html">A 360 Degree View Of The Entire Netflix Stack</a><br><a href="http://highscalability.com/blog/2017/12/11/netflix-what-happens-when-you-press-play.html">Netflix: What Happens When You Press Play?</a></td>
+</tr>
+<tr>
+<td>Pinterest</td>
+<td><a href="http://highscalability.com/blog/2013/4/15/scaling-pinterest-from-0-to-10s-of-billions-of-page-views-a.html">From 0 To 10s of billions of page views a month</a><br><a href="http://highscalability.com/blog/2012/5/21/pinterest-architecture-update-18-million-visitors-10x-growth.html">18 million visitors, 10x growth, 12 employees</a></td>
+</tr>
+<tr>
+<td>Playfish</td>
+<td><a href="http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html">50 million monthly users and growing</a></td>
+</tr>
+<tr>
+<td>PlentyOfFish</td>
+<td><a href="http://highscalability.com/plentyoffish-architecture">PlentyOfFish architecture</a></td>
+</tr>
+<tr>
+<td>Salesforce</td>
+<td><a href="http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html">How they handle 1.3 billion transactions a day</a></td>
+</tr>
+<tr>
+<td>Stack Overflow</td>
+<td><a href="http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html">Stack Overflow architecture</a></td>
+</tr>
+<tr>
+<td>TripAdvisor</td>
+<td><a href="http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html">40M visitors, 200M dynamic page views, 30TB data</a></td>
+</tr>
+<tr>
+<td>Tumblr</td>
+<td><a href="http://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html">15 billion page views a month</a></td>
+</tr>
+<tr>
+<td>Twitter</td>
+<td><a href="http://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster">Making Twitter 10000 percent faster</a><br><a href="http://highscalability.com/blog/2011/12/19/how-twitter-stores-250-million-tweets-a-day-using-mysql.html">Storing 250 million tweets a day using MySQL</a><br><a href="http://highscalability.com/blog/2013/7/8/the-architecture-twitter-uses-to-deal-with-150m-active-users.html">150M active users, 300K QPS, a 22 MB/S firehose</a><br><a href="https://www.infoq.com/presentations/Twitter-Timeline-Scalability">Timelines at scale</a><br><a href="https://www.youtube.com/watch?v=5cKTP36HVgI">Big and small data at Twitter</a><br><a href="https://www.youtube.com/watch?v=z8LU0Cj6BOU">Operations at Twitter: scaling beyond 100 million users</a><br><a href="http://highscalability.com/blog/2016/4/20/how-twitter-handles-3000-images-per-second.html">How Twitter Handles 3,000 Images Per Second</a></td>
+</tr>
+<tr>
+<td>Uber</td>
+<td><a href="http://highscalability.com/blog/2015/9/14/how-uber-scales-their-real-time-market-platform.html">How Uber scales their real-time market platform</a><br><a href="http://highscalability.com/blog/2016/10/12/lessons-learned-from-scaling-uber-to-2000-engineers-1000-ser.html">Lessons Learned From Scaling Uber To 2000 Engineers, 1000 Services, And 8000 Git Repositories</a></td>
+</tr>
+<tr>
+<td>WhatsApp</td>
+<td><a href="http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html">The WhatsApp architecture Facebook bought for $19 billion</a></td>
+</tr>
+<tr>
+<td>YouTube</td>
+<td><a href="https://www.youtube.com/watch?v=w5WVu624fY8">YouTube scalability</a><br><a href="http://highscalability.com/youtube-architecture">YouTube architecture</a></td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+<h3>Company engineering blogs</h3>
+<blockquote>
+<p>Architectures for companies.</p>
+</blockquote>
+<ul>
+<li><a href="http://nerds.airbnb.com/">Airbnb Engineering</a></li>
+<li><a href="https://developer.atlassian.com/blog/">Atlassian Developers</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/">AWS Blog</a></li>
+<li><a href="http://word.bitly.com/">Bitly Engineering Blog</a></li>
+<li><a href="https://blog.box.com/blog/category/engineering">Box Blogs</a></li>
+<li><a href="http://blog.cloudera.com/">Cloudera Developer Blog</a></li>
+<li><a href="https://tech.dropbox.com/">Dropbox Tech Blog</a></li>
+<li><a href="https://www.quora.com/q/quoraengineering">Engineering at Quora</a></li>
+<li><a href="http://www.ebaytechblog.com/">Ebay Tech Blog</a></li>
+<li><a href="https://blog.evernote.com/tech/">Evernote Tech Blog</a></li>
+<li><a href="http://codeascraft.com/">Etsy Code as Craft</a></li>
+<li><a href="https://www.facebook.com/Engineering">Facebook Engineering</a></li>
+<li><a href="http://code.flickr.net/">Flickr Code</a></li>
+<li><a href="http://engineering.foursquare.com/">Foursquare Engineering Blog</a></li>
+<li><a href="https://github.blog/category/engineering">GitHub Engineering Blog</a></li>
+<li><a href="http://googleresearch.blogspot.com/">Google Research Blog</a></li>
+<li><a href="https://engineering.groupon.com/">Groupon Engineering Blog</a></li>
+<li><a href="https://engineering.heroku.com/">Heroku Engineering Blog</a></li>
+<li><a href="http://product.hubspot.com/blog/topic/engineering">Hubspot Engineering Blog</a></li>
+<li><a href="http://highscalability.com/">High Scalability</a></li>
+<li><a href="http://instagram-engineering.tumblr.com/">Instagram Engineering</a></li>
+<li><a href="https://software.intel.com/en-us/blogs/">Intel Software Blog</a></li>
+<li><a href="https://blogs.janestreet.com/category/ocaml/">Jane Street Tech Blog</a></li>
+<li><a href="http://engineering.linkedin.com/blog">LinkedIn Engineering</a></li>
+<li><a href="https://engineering.microsoft.com/">Microsoft Engineering</a></li>
+<li><a href="https://blogs.msdn.microsoft.com/pythonengineering/">Microsoft Python Engineering</a></li>
+<li><a href="http://techblog.netflix.com/">Netflix Tech Blog</a></li>
+<li><a href="https://medium.com/paypal-engineering">Paypal Developer Blog</a></li>
+<li><a href="https://medium.com/@Pinterest_Engineering">Pinterest Engineering Blog</a></li>
+<li><a href="http://www.redditblog.com/">Reddit Blog</a></li>
+<li><a href="https://developer.salesforce.com/blogs/engineering/">Salesforce Engineering Blog</a></li>
+<li><a href="https://slack.engineering/">Slack Engineering Blog</a></li>
+<li><a href="https://labs.spotify.com/">Spotify Labs</a></li>
+<li><a href="http://www.twilio.com/engineering">Twilio Engineering Blog</a></li>
+<li><a href="https://blog.twitter.com/engineering/">Twitter Engineering</a></li>
+<li><a href="http://eng.uber.com/">Uber Engineering Blog</a></li>
+<li><a href="http://yahooeng.tumblr.com/">Yahoo Engineering Blog</a></li>
+<li><a href="http://engineeringblog.yelp.com/">Yelp Engineering Blog</a></li>
+<li><a href="https://www.zynga.com/blogs/engineering">Zynga Engineering Blog</a></li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h2>Licenses &amp; certifications</h2>
+<ul>
+<li>🏆 LeetCode Global TOP 300 (Swift: <a href="https://leetcode.com/sergeyleschev/">Certificate</a>, Sources: <a href="https://github.com/sergeyleschev/leetcode-swift">Swift</a>).</li>
+<li>🏆 Golden Award for the Year of the Tiger Challenge (TypeScript: <a href="https://app.codility.com/cert/view/certQBA3EW-QESXM38DNR3SXMYZ/">Certificate</a>, Sources: <a href="https://github.com/sergeyleschev/codility-swift">Codility</a>).</li>
+<li>🏆 Golden Award Muad’Dib’s Challenge (Swift: <a href="https://app.codility.com/cert/view/cert5YT6JA-Y9ZKFEFXEZWGTR3G/">Certificate</a>, Sources: <a href="https://github.com/sergeyleschev/codility-swift">Swift</a>).</li>
+<li>LinkedIn Skill Asessment (Mobile): <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Swift/report/">Swift (Programming Language)</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Object-Oriented%20Programming%20(OOP)/report/">Object-Oriented Programming (OOP)</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Objective-C/report/">Objective-C</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/C++/report/">C++</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Angular/report/">Ionic</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/JSON/report/">JSON</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/XML/report/">XML</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Android/report/">Android</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Kotlin/report/">Kotlin</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Maven/report/">Maven</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Java/report/">Java</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/REST%20APIs/report/">REST APIs</a>.</li>
+<li>LinkedIn Skill Asessment (Front-End): <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Front-end%20Development/report/">Front-end Development</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Angular/report/">Angular</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/React/report/">React</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/JavaScript/report/">Javascript</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/HTML/report/">HTML</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Cascading%20Style%20Sheets%20(CSS)/report/">CSS</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/jQuery/report/">jQuery</a>.</li>
+<li>LinkedIn Skill Asessment (Back-End): <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Node.js/report/">Node.js</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Java/report/">Java</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Spring%20Framework/report/">Spring Framework</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Scala/report/">Scala</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/C%23/report/">C#</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/.NET%20Framework/report/">.NET Framework</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Unity/report/">Unity</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Python%20(Programming%20Language)/report/">Python (Programming Language)</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Django/report/">Django</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/PHP/report/">PHP</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/C%20(Programming%20Language)/report/">C (Programming Language)</a>.</li>
+<li>LinkedIn Skill Asessment (Databases): <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/MongoDB/report/">MongoDB</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/NoSQL/report/">NoSQL</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Transact-SQL%20(T-SQL)/report/">Transact-SQL (T-SQL)</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/MySQL/report/">MySQL</a>.</li>
+<li>LinkedIn Skill Asessment (Infra/DevOps): <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Bash/report/">Bash</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Git/report/">Git</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Amazon%20Web%20Services%20(AWS)/report/">Amazon Web Services (AWS)</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/AWS%20Lambda/report/">AWS Lambda</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Google%20Cloud%20Platform%20(GCP)/report/">Google Cloud Platform (GCP)</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Microsoft%20Azure/report/">Microsoft Azure</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/Hadoop/report/">Hadoop</a>, <a href="https://www.linkedin.com/in/sergeyleschev/detail/assessments/IT%20Operations/report/">IT Operations</a>.</li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h2>Contacts</h2>
+<p>I have a clear focus on time-to-market and don’t prioritize technical debt.</p>
+<p>🛩️ #startups #management #cto #swift #typescript #database</p>
+<p>📧 Email: <a href="mailto:sergey.leschev@gmail.com">sergey.leschev@gmail.com</a></p>
+<p>👋 LinkedIn: <a href="https://www.linkedin.com/in/sergeyleschev/">https://linkedin.com/in/sergeyleschev</a></p>
+<p>👋 Twitter: <a href="https://twitter.com/sergeyleschev">https://twitter.com/sergeyleschev</a></p>
+<p>👋 Github: <a href="https://github.com/sergeyleschev">https://github.com/sergeyleschev</a></p>
+<p>🌎 Website: <a href="https://sergeyleschev.github.io">https://sergeyleschev.github.io</a></p>
+<p>🖨️ PDF: <a href="https://github.com/sergeyleschev/sergeyleschev/raw/main/sergeyleschev-system-architect-roadmap.pdf">Download</a></p>
+<p>ALT: SIARHEI LIASHCHOU</p>
+</article>
+  
+<br />
+
+<footer class="markdown-body">
+  <p style="font-size: 10px">
+  <a href="https://sergeyleschev.github.io">leader</a>, <a href="https://sergeyleschev.github.io">knowledge</a>, <a href="https://sergeyleschev.github.io">qualifications</a>, <a href="https://sergeyleschev.github.io">education</a>, <a href="https://sergeyleschev.github.io">tips</a>, <a href="https://sergeyleschev.github.io">skills</a>, <a href="https://sergeyleschev.github.io">multitasking</a>, <a href="https://sergeyleschev.github.io">references</a>, <a href="https://sergeyleschev.github.io">success</a>, <a href="https://sergeyleschev.github.io">work</a>, <a href="https://sergeyleschev.github.io">job</a>, <a href="https://sergeyleschev.github.io">tie</a>, <a href="https://sergeyleschev.github.io">challenges</a>, <a href="https://sergeyleschev.github.io">abilities</a>, <a href="https://sergeyleschev.github.io">impress</a>, <a href="https://sergeyleschev.github.io">responsibility</a>, <a href="https://sergeyleschev.github.io">future</a>, <a href="https://sergeyleschev.github.io">weeknesses</a>, <a href="https://sergeyleschev.github.io">benefits</a>, <a href="https://sergeyleschev.github.io">results</a>, <a href="https://sergeyleschev.github.io">team player</a>, <a href="https://sergeyleschev.github.io">strengths</a>, <a href="https://sergeyleschev.github.io">interview</a>, <a href="https://sergeyleschev.github.io">degress</a>, <a href="https://sergeyleschev.github.io">examples</a>, <a href="https://sergeyleschev.github.io">strengths</a>, <a href="https://sergeyleschev.github.io">experienced</a>, <a href="https://sergeyleschev.github.io">problem solver</a>, <a href="https://sergeyleschev.github.io">candidate</a>, <a href="https://sergeyleschev.github.io">agency</a>, <a href="https://sergeyleschev.github.io">objective</a>, <a href="https://sergeyleschev.github.io">initiative</a>, <a href="https://sergeyleschev.github.io">team</a>, <a href="https://sergeyleschev.github.io">dreams</a>, <a href="https://sergeyleschev.github.io">conflict</a>, <a href="https://sergeyleschev.github.io">can-do</a>, <a href="https://sergeyleschev.github.io">training</a>, <a href="https://sergeyleschev.github.io">questions</a>, <a href="https://sergeyleschev.github.io">job</a>, <a href="https://sergeyleschev.github.io">work</a>, <a href="https://sergeyleschev.github.io">career</a>, <a href="https://sergeyleschev.github.io">created</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">swift</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">typescript</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">javascript</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">sql</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">nosql</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">postgresql</a>, <a href="https://sergeyleschev.github.io">oracle</a>, <a href="https://sergeyleschev.github.io">sql server</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">react</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">redux</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">swiftui</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">objective-c</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">devops</a>, <a href="https://sergeyleschev.github.io">aws</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">mongodb</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">pl/sql</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">angular</a>, <a href="https://sergeyleschev.github.io">project management</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">nodejs</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">nextjs</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">nestjs</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">api</a>, <a href="https://sergeyleschev.github.io">agile</a>, <a href="https://sergeyleschev.github.io">amplitude</a>, <a href="https://sergeyleschev.github.io">analytics</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">appclip</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">appstore</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">bash</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">css</a>, <a href="https://sergeyleschev.github.io">jira</a>, <a href="https://sergeyleschev.github.io">confluence</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">git</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">graphql</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">html</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">html5</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">mvp</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">mvvm</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">nginx</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">ssh</a>, <a href="https://sergeyleschev.github.io">prime react</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">rest</a>, <a href="https://sergeyleschev.github.io">teamcity</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">typeorm</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">uikit</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">uml</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">viper</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">widgets</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">xcode</a>, <a href="https://sergeyleschev.github.io">json</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">linux</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">docker</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">mobx</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">tvOS</a>, <a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">watchOS</a>
+  </p>
+</footer>
+  
+</body></html>
