@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Sergey Leschev - Tech Lead</title>
+  <link>https://sergeyleschev.github.io</link>
+  <description>Free web building tutorials</description>
+  <item>
+    <title>Tech Lead</title>
+    <link>https://sergeyleschev.github.io</link>
+    <description>Sergey is a professional who is responsible for the design and construction of websites and apps.</description>
+  </item>
+  <item>
+    <title>iOS Developer Roadmap</title>
+    <link>https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html</link>
+    <description>Sergey is a professional who is responsible for the design and construction of mobile apps.</description>
+  </item>
+  <item>
+    <title>FullStack Developer Roadmap</title>
+    <link>https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html</link>
+    <description>Sergey is a professional who is responsible for the design and construction of websites.</description>
+  </item>
+  <item>
+    <title>System Architect</title>
+    <link>https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html</link>
+    <description>Sergey is a professional who is responsible for the system design.</description>
+  </item>
+</channel>
+
+</rss>
