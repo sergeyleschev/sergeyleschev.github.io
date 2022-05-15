@@ -9,21 +9,25 @@
     <title>Tech Lead</title>
     <link>https://sergeyleschev.github.io</link>
     <description>Sergey is a professional who is responsible for the design and construction of websites and apps.</description>
+    <guid>https://sergeyleschev.github.io</guid>
   </item>
   <item>
     <title>iOS Developer Roadmap</title>
     <link>https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html</link>
     <description>Sergey is a professional who is responsible for the design and construction of mobile apps.</description>
+    <guid>https://sergeyleschev.github.io/sergeyleschev-ios-roadmap</guid>
   </item>
   <item>
     <title>FullStack Developer Roadmap</title>
     <link>https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html</link>
     <description>Sergey is a professional who is responsible for the design and construction of websites.</description>
+    <guid>https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap</guid>
   </item>
   <item>
     <title>System Architect</title>
     <link>https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html</link>
     <description>Sergey is a professional who is responsible for the system design.</description>
+    <guid>https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap</guid>
   </item>
 </channel>
 
