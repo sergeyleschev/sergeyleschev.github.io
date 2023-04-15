@@ -6,7 +6,7 @@
     <channel>
         <title>Sergey Leschev</title>
         <link>https://sergeyleschev.github.io</link>
-        <description>Sergey Leschev, Tech Lead (Swift, TypeScript, Database). Sergey is a professional who is responsible for the design and construction of websites and apps.</description>
+        <description>Sergey Leschev, Team Lead (Swift, TypeScript, Database). Sergey is a professional who is responsible for the design and construction of websites and apps.</description>
         <language>en</language>
 
         <item turbo="true">
@@ -19,7 +19,7 @@
             <metrics>
                 <yandex schema_identifier="sergeyleschev">
                     <breadcrumblist>
-                        <breadcrumb url="https://sergeyleschev.github.io" text="Tech Lead"/>
+                        <breadcrumb url="https://sergeyleschev.github.io" text="Team Lead"/>
                     </breadcrumblist>
                 </yandex>
             </metrics>
@@ -27,7 +27,7 @@
             <turbo:content>
 <article id="personal-details" class="markdown-body"><h1> <a href="https://sergeyleschev.github.io"><img itemprop="image" alt="Sergey Leschev" src="apple-touch-icon.png" width=27/></a> Sergey Leschev</h1>
       <img itemprop="image" alt="Sergey Leschev" src="https://avatars.githubusercontent.com/u/23653372?v=4&raw=true" width=300/>
-<h3>Tech Lead</h3>
+<h3>Team Lead</h3>
 <h2><a href="https://sergeyleschev.github.io/sergeyleschev-ios-roadmap.html">Swift</a> | <a href="https://sergeyleschev.github.io/sergeyleschev-fullstack-roadmap.html">TypeScript</a> | <a href="https://sergeyleschev.github.io/sergeyleschev-system-architect-roadmap.html">System Architect</a></h2>
 <br>
 <h2>🏆 Awards</h2>
@@ -591,7 +591,7 @@
 <div style="page-break-after: always;"></div>
 <h2>Latest Projects</h2>
 <h3>[ iOS] Live Stream &amp; Video Chat is the best streaming and video chatting tool.</h3>
-<p>Role: Senior iOS Developer, Tech Lead. Development architecture and new features.</p>
+<p>Role: Senior iOS Developer, Team Lead. Development architecture and new features.</p>
 <p>Tech Stack:</p>
 <ul>
 <li>Swift 5+.</li>
@@ -610,7 +610,7 @@
 </ul>
 <div style="page-break-after: always;"></div>
 <h3>[ iOS] Health &amp; Fitness iOS App</h3>
-<p>Role: Senior iOS Developer, Tech Lead. Development architecture and new features.</p>
+<p>Role: Senior iOS Developer, Team Lead. Development architecture and new features.</p>
 <p>Tech Stack:</p>
 <ul>
 <li>Swift 5+.</li>
